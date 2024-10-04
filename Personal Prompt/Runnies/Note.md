@@ -12,3 +12,8 @@
 ** Save Data 100 Question (store data)
 
 - Task2_ver1.5.ipynb จะลองเอาเรื่องที่เรียนไปสร้างคำถาม
+
+- Question_Bank.ipynb file ที่สร้างคำถามเเละเก็บเอาใว้ เพื่อที่จะทำ Question Bank 
+    โดยในเเต่ละ Topic จะมี 3 ความยาก ['ง่าย','กลาง','ยาก'] 
+
+- Folder
