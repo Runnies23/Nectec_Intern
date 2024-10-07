@@ -1,0 +1,51 @@
+Question,Choice1,Choice2,Choice3,Choice4,Topic,Level
+ตัวอย่างโค้ด Python ด้านล่างนี้ทำอะไร?,"('สร้าง decorator ที่เพิ่มฟังก์ชัน', 1)","('สร้าง context manager ที่จัดการทรัพยากร', 0)","('สร้าง class ที่มีฟังก์ชันพิเศษ', 0)","('สร้าง module ที่มีฟังก์ชันหลายๆ ตัว', 0)",Decorators,Easy
+Context Manager ใน Python ใช้สำหรับอะไร?,"('จัดการทรัพยากร เช่น การเปิด/ปิดไฟล์', 1)","('จัดการข้อผิดพลาดในโค้ด', 0)","('เพิ่มฟังก์ชันให้กับฟังก์ชันอื่นๆ', 0)","('สร้าง class ที่มีฟังก์ชันพิเศษ', 0)",Context Managers,Medium
+การสร้าง decorator ใน Python จำเป็นต้องใช้คำสั่งอะไร?,"('@symbol', 1)","('def keyword', 0)","('class keyword', 0)","('import statement', 0)",Decorators,Medium
+การใช้งาน Context Manager ใน Python สามารถทำได้โดยการใช้คำสั่งอะไร?,"('with statement', 1)","('try-except block', 0)","('for loop', 0)","('while loop', 0)",Context Managers,Easy
+การสร้าง decorator ที่รับ argument ใน Python ทำอย่างไร?,"('ใช้ฟังก์ชันที่รับค่า argument แล้วคืนค่าฟังก์ชัน', 1)","('ใช้ class ที่มีฟังก์ชันพิเศษ', 0)","('ใช้ lambda function', 0)","('ใช้ generator function', 0)",Decorators,Hard
+Context Manager ใน Python สามารถใช้งานร่วมกับทรัพยากรอะไรบ้าง?,"('ไฟล์, ฐานข้อมูล, โซเชียลเน็ตเวิร์ค', 1)","('เว็บเซอร์วิส, API, เครือข่าย', 0.5)","('ฮาร์ดแวร์, ซอฟต์แวร์, OS', 0)","('อุปกรณ์มือถือ, คอมพิวเตอร์, แท็บเล็ต', 0)",Context Managers,Medium
+การสร้าง decorator ที่มีการตรวจสอบข้อผิดพลาดใน Python ทำอย่างไร?,"('ใช้ try-except block ภายใน decorator', 1)","('ใช้ if-else statement ภายใน decorator', 0)","('ใช้ loop ภายใน decorator', 0)","('ไม่สามารถทำได้', 0)",Decorators,Hard
+การใช้งาน Context Manager ร่วมกับไฟล์ใน Python ทำอย่างไร?,"(""ใช้ with open('filename','mode') as file:"", 1)","(""ใช้ file = open('filename','mode')"", 0)","(""ใช้ file = fopen('filename','mode')"", 0)","('ไม่สามารถทำได้', 0)",Context Managers,Easy
+การสร้าง decorator ที่มีการ return ค่าใน Python ทำอย่างไร?,"('ใช้ return statement ภายใน decorator', 1)","('ใช้ yield statement ภายใน decorator', 0)","('ไม่สามารถทำได้', 0)","('ใช้ print statement ภายใน decorator', 0)",Decorators,Medium
+Context Manager ใน Python มีความสำคัญอย่างไร?,"('ช่วยจัดการทรัพยากรและลดความซับซ้อนของโค้ด', 1)","('ช่วยเพิ่มความเร็วในการทำงานของโปรแกรม', 0)","('ช่วยลดขนาดของโค้ด', 0)","('ไม่มีความสำคัญ', 0)",Context Managers,Medium
+การสร้าง list ในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('()', 0)","('{}', 0.5)","('[]', 1)","('.', 0)",List,Easy
+วิธีการเพิ่มข้อมูลใน dictionary คือ?,"('append()', 0)","('update()', 0.75)","('insert()', 0.5)","('add()', 0)",Dictionary,Medium
+Set methods ใน Python ใช้สำหรับการดำเนินการอะไร?,"('การเรียงลำดับข้อมูล', 0.25)","('การตรวจสอบความซ้ำของข้อมูล', 0.5)","('การแปลงข้อมูลเป็นรูปแบบอื่น', 0)","('การทำงานร่วมกับ list และ dictionary', 1)",SetMethods,Medium
+เมื่อเรียกใช้ฟังก์ชัน len() กับ list จะได้ค่าอะไรกลับมา?,"('จำนวนสมาชิกใน list', 1)","('ความยาวของ list', 0.75)","('ค่าแรกสุดใน list', 0)","('ค่าสุดท้ายใน list', 0)",List,Easy
+วิธีการลบข้อมูลใน dictionary คือ?,"('del()', 1)","('remove()', 0.75)","('pop()', 0.5)","('clear()', 0)",Dictionary,Medium
+การทำงานร่วมกันระหว่าง set และ list สามารถทำได้โดยการใช้วิธีการอะไร?,"('การแปลง set เป็น list', 0.5)","('การแปลง list เป็น set', 1)","('การใช้ฟังก์ชัน intersection()', 0)","('การใช้ฟังก์ชัน union()', 0)",SetMethods,Hard
+การเรียกใช้ฟังก์ชัน sort() กับ list จะทำให้ list นั้นถูกจัดเรียงอย่างไร?,"('จากน้อยไปมาก', 0.5)","('จากมากไปน้อย', 0.75)","('ไม่มีการจัดเรียง', 0)","('ตามลำดับอักขระ', 1)",List,Medium
+การเข้าถึงค่าใน dictionary สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('[]', 1)","('()', 0)","('{}', 0.5)","('.', 0)",Dictionary,Easy
+Set methods ใน Python มีประโยชน์ในการดำเนินการอะไร?,"('การตรวจสอบความซ้ำของข้อมูล', 0.5)","('การทำงานร่วมกับ list และ dictionary', 1)","('การแปลงข้อมูลเป็นรูปแบบอื่น', 0)","('การเรียงลำดับข้อมูล', 0.25)",SetMethods,Medium
+การสร้าง dictionary ในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('()', 0)","('[]', 0.5)","('{}', 1)","('.', 0)",Dictionary,Easy
+"ในภาษา Python, คุณสามารถใช้ฟังก์ชันใดในการสร้าง iterator?","('iter()', 0.75)","('next()', 0.25)","('len()', 0)","('range()', 0)",IteratorsandGenerators,Easy
+คำสั่งไหนที่ใช้สำหรับการเรียกใช้งาน iterator ใน Python?,"('next()', 1)","('iter()', 0)","('len()', 0)","('range()', 0)",IteratorsandGenerators,Easy
+"เมื่อคุณใช้ฟังก์ชัน next() กับ iterator ที่ไม่มีค่าใดๆ อีก, จะเกิดอะไรขึ้น?","('จะแสดงค่า None', 0)","(""จะแสดงข้อความ 'No more items'"", 0)","('จะเกิด StopIteration Exception', 1)","('จะวน loop ไปเรื่อยๆ', 0)",IteratorsandGenerators,Medium
+ฟังก์ชันใดใน Python ที่ใช้สำหรับการสร้าง generator?,"('generator()', 0)","('iter()', 0)","('yield', 1)","('next()', 0)",IteratorsandGenerators,Medium
+คุณสามารถใช้วิธีใดในการตรวจสอบว่า iterator ยังมีค่าเหลืออยู่หรือไม่?,"('การใช้ try-except block', 1)","('การใช้ len() function', 0)","('การใช้ next() function', 0)","('การใช้ range() function', 0)",IteratorsandGenerators,Hard
+ความแตกต่างระหว่าง iterator และ generator คืออะไร?,"('iterator สามารถวน loop ได้หลายรอบ แต่ generator ไม่สามารถทำได้', 0)","('generator สามารถวน loop ได้หลายรอบ แต่ iterator ไม่สามารถทำได้', 0)","('generator สร้างค่าขึ้นมาทีละหนึ่ง แต่ iterator ใช้ค่าที่มีอยู่แล้ว', 1)","('generator ใช้ค่าที่มีอยู่แล้ว แต่ iterator สร้างค่าขึ้นมาทีละหนึ่ง', 0)",IteratorsandGenerators,Hard
+ฟังก์ชันใดใน Python ที่สามารถใช้ร่วมกับ generator?,"('map()', 1)","('filter()', 1)","('reduce()', 0.5)","('sorted()', 0)",IteratorsandGenerators,Medium
+การทำงานของ generator ใน Python คืออะไร?,"('สร้างค่าขึ้นมาทีละหนึ่งและเก็บค่าที่สร้างไว้ใน memory', 1)","('สร้างค่าขึ้นมาทีละหนึ่งแต่ไม่เก็บค่าที่สร้างไว้ใน memory', 0)","('ใช้ค่าที่มีอยู่แล้วและวน loop ไปเรื่อยๆ', 0)","('ไม่สามารถทำงานร่วมกับฟังก์ชันใดๆ', 0)",IteratorsandGenerators,Medium
+ความสำคัญของการใช้ generator ใน Python คืออะไร?,"('ช่วยลดการใช้ memory', 1)","('ช่วยเพิ่มความเร็วในการประมวลผล', 0.5)","('ช่วยลดความซับซ้อนของโค้ด', 0.5)","('ไม่มีความสำคัญใดๆ', 0)",IteratorsandGenerators,Hard
+เมื่อไหร่ที่ควรใช้ generator แทน list ใน Python?,"('เมื่อคุณต้องการเก็บข้อมูลขนาดใหญ่', 1)","('เมื่อคุณต้องการวน loop ผ่านข้อมูลหลายครั้ง', 0)","('เมื่อคุณต้องการใช้งานกับฟังก์ชันที่รองรับ generator', 0.5)","('ไม่มีกรณีที่ควรใช้ generator แทน list', 0)",IteratorsandGenerators,Hard
+การสร้างคลาสในภาษา Python จำเป็นต้องใช้คำสั่งใด?,"('class', 1)","('object', 0.25)","('instance', 0.5)","('inheritance', 0)",Object-Oriented Programming (OOP),Easy
+คุณสมบัติของการเชื่อมโยงคลาสในภาษา Python คืออะไร?,"('การรับช่วงต่อจากคลาสอื่น', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+วิธีการเข้าถึงข้อมูลสมาชิกของคลาสในภาษา Python คืออะไร?,"('การใช้จุด (.)', 1)","('การใช้เครื่องหมายคำถาม (?)', 0)","('การใช้เครื่องหมายอัศเจรีย (!)', 0)","('การใช้เครื่องหมายทวีคูณ (*)', 0.25)",Object-Oriented Programming (OOP),Easy
+ความหมายของคำว่า 'Encapsulation' ในภาษา Python คืออะไร?,"('การห่อหุ้มข้อมูลและฟังก์ชันในคลาสเดียวกัน', 1)","('การแบ่งปันข้อมูลระหว่างคลาส', 0.25)","('การสร้างคลาสใหม่', 0)","('การลบคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+การสร้างวัตถุ (Object) จากคลาสในภาษา Python ทำอย่างไร?,"('การใช้คำสั่ง new', 0)","('การใช้คำสั่ง create', 0)","('การใช้คำสั่ง class_name()', 1)","('การใช้คำสั่ง object_name = class_name()', 0.5)",Object-Oriented Programming (OOP),Easy
+ความหมายของคำว่า 'Inheritance' ในภาษา Python คืออะไร?,"('การรับช่วงต่อจากคลาสอื่น', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+วิธีการเรียกใช้เมธอดของคลาสในภาษา Python คืออะไร?,"('การใช้จุด (.)', 1)","('การใช้เครื่องหมายคำถาม (?)', 0)","('การใช้เครื่องหมายอัศเจรีย (!)', 0)","('การใช้เครื่องหมายทวีคูณ (*)', 0.25)",Object-Oriented Programming (OOP),Easy
+ความหมายของคำว่า 'Polymorphism' ในภาษา Python คืออะไร?,"('การแสดงผลลัพธ์ที่แตกต่างกันของเมธอดที่มีชื่อเดียวกัน', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Hard
+วิธีการสร้างเมธอดพิเศษ (Special Method) ในภาษา Python คืออะไร?,"('การใช้เครื่องหมายใต้ขีด (_) ก่อนและหลังชื่อเมธอด', 1)","('การใช้เครื่องหมายจุด (.) ก่อนชื่อเมธอด', 0.25)","('การใช้เครื่องหมายอัศเจรีย (!) หลังชื่อเมธอด', 0)","('การใช้เครื่องหมายทวีคูณ (*) ก่อนชื่อเมธอด', 0.5)",Object-Oriented Programming (OOP),Medium
+ความหมายของคำว่า 'Abstraction' ในภาษา Python คืออะไร?,"('การแสดงเฉพาะส่วนที่สำคัญของข้อมูล', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+การนำเข้าโมดูลในภาษา Python สามารถทำได้โดยการใช้คำสั่งใด?,"('import', 1)","('load', 0)","('include', 0)","('require', 0)",ModulesandImports,['Easy']
+เมื่อเรียกใช้โมดูล math ใน Python โดยใช้คำสั่ง import math แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('sin()', 1)","('sqrt()', 0.75)","('random()', 0)","('print()', 0)",ModulesandImports,['Easy']
+ถ้าเราต้องการนำเข้าเฉพาะฟังก์ชัน sin() จากโมดูล math ใน Python จะต้องใช้คำสั่งใด?,"('from math import sin', 1)","('import math.sin', 0)","('import math', 0)","('load math.sin', 0)",ModulesandImports,['Medium']
+การสร้างโมดูลของตัวเองใน Python สามารถทำได้โดยการสร้างไฟล์ใด?,"('.py', 1)","('.txt', 0)","('.html', 0)","('.css', 0)",ModulesandImports,['Medium']
+เมื่อเรียกใช้โมดูล random ใน Python แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('randint()', 1)","('uniform()', 0.75)","('choice()', 0.5)","('print()', 0)",ModulesandImports,['Easy']
+การนำเข้าโมดูลทั้งหมดจาก package ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('from package import *', 1)","('import package.*', 0)","('load package', 0)","('include package', 0)",ModulesandImports,['Medium']
+เมื่อเรียกใช้โมดูล datetime ใน Python แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('now()', 1)","('strftime()', 0.75)","('timedelta()', 0.5)","('print()', 0)",ModulesandImports,['Medium']
+การนำเข้าโมดูล numpy ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('import numpy as np', 1)","('load numpy', 0)","('include numpy', 0)","('require numpy', 0)",ModulesandImports,['Easy']
+เมื่อเรียกใช้โมดูล pandas ใน Python แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('DataFrame()', 1)","('Series()', 0.75)","('read_csv()', 0.5)","('print()', 0)",ModulesandImports,['Medium']
+การนำเข้าโมดูล tkinter ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('import tkinter as tk', 1)","('load tkinter', 0)","('include tkinter', 0)","('require tkinter', 0)",ModulesandImports,['Easy']
