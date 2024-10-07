@@ -1,0 +1,273 @@
+,Question,Choice1,Choice2,Choice3,Choice4,Topic,Level
+0,Context Manager ใน Python ใช้สำหรับอะไร?,"('จัดการทรัพยากร เช่น การเปิด/ปิดไฟล์', 1)","('จัดการข้อผิดพลาดในโค้ด', 0)","('เพิ่มฟังก์ชันให้กับฟังก์ชันอื่นๆ', 0)","('สร้าง class ที่มีฟังก์ชันพิเศษ', 0)",Context Managers,Medium
+1,Context Manager ใช้ในการจัดการทรัพยากรประเภทใด?,"('ไฟล์', 0.25)","('ฐานข้อมูล', 0.25)","('Network connections', 0.25)","('ทุกข้อ', 1)",Context Managers,Easy
+2,Context Manager คืออะไร?,"('คลาสที่ใช้สำหรับการจัดการทรัพยากร', 0.5)","('ฟังก์ชันที่ใช้สำหรับการจัดการทรัพยากร', 0.25)","('วิธีการเขียนโค้ดที่ดี', 0)","('ไม่มีความหมาย', 0)",Context Managers,Medium
+3,Context Manager ทำงานอย่างไร?,"('จัดการทรัพยากรเมื่อมีการเรียกใช้งาน', 0.25)","('จัดการทรัพยากรเมื่อมีการปิดโปรแกรม', 0.25)","('จัดการทรัพยากรเมื่อมีการเปิดและปิด', 0.5)","('ไม่มีการจัดการทรัพยากร', 0)",Context Managers,Hard
+4,การสร้าง Context Manager สามารถทำได้โดยการใช้คำสั่งใด?,"('with statement', 1)","('try-finally block', 0.25)","('class with __enter__ and __exit__ methods', 0.5)","('generator function', 0)",Context Managers,Medium
+5,การใช้งาน Context Manager ร่วมกับไฟล์ใน Python ทำอย่างไร?,"(""ใช้ with open('filename','mode') as file:"", 1)","(""ใช้ file = open('filename','mode')"", 0)","(""ใช้ file = fopen('filename','mode')"", 0)","('ไม่สามารถทำได้', 0)",Context Managers,Easy
+6,Context Manager ใน Python สามารถใช้งานร่วมกับทรัพยากรอะไรบ้าง?,"('ไฟล์, ฐานข้อมูล, โซเชียลเน็ตเวิร์ค', 1)","('เว็บเซอร์วิส, API, เครือข่าย', 0.5)","('ฮาร์ดแวร์, ซอฟต์แวร์, OS', 0)","('อุปกรณ์มือถือ, คอมพิวเตอร์, แท็บเล็ต', 0)",Context Managers,Medium
+7,การใช้งาน Context Manager ใน Python สามารถทำได้โดยการใช้คำสั่งอะไร?,"('with statement', 1)","('try-except block', 0)","('for loop', 0)","('while loop', 0)",Context Managers,Easy
+8,การใช้งาน Context Manager มีข้อดีอย่างไร?,"('สามารถจัดการทรัพยากรได้อย่างมีประสิทธิภาพ', 0.5)","('สามารถลดความซับซ้อนของโค้ด', 0.25)","('สามารถเพิ่มความเร็วในการทำงาน', 0)","('ทั้งหมดข้างต้น', 1)",Context Managers,Medium
+9,Context Manager ใน Python มีความสำคัญอย่างไร?,"('ช่วยจัดการทรัพยากรและลดความซับซ้อนของโค้ด', 1)","('ช่วยเพิ่มความเร็วในการทำงานของโปรแกรม', 0)","('ช่วยลดขนาดของโค้ด', 0)","('ไม่มีความสำคัญ', 0)",Context Managers,Medium
+10,"ในภาษา Python, keyword 'pass' ใช้เพื่ออะไร?","('ทำคำสั่งที่กำหนด', 0)","('ไม่ทำอะไรและข้ามไปที่คำสั่งต่อไป', 1)","('วนซ้ำคำสั่ง', 0)","('หยุดการทำงานของโปรแกรม', 0)",Control Flow,Easy
+11,"ในภาษา Python, การใช้ while loop มีความหมายว่าอะไร?","('การวนซ้ำคำสั่งจนกว่าเงื่อนไขจะเป็นเท็จ', 1)","('การทำงานกับลิสต์หรือเซ็ต', 0)","('การทำงานกับค่าที่ไม่แน่นอน', 0)","('การทำงานกับฟังก์ชัน', 0)",Control Flow,Medium
+12,"ในภาษา Python, การใช้ for loop มีความหมายว่าอะไร?","('การวนซ้ำคำสั่ง', 0.5)","('การทำงานกับลิสต์หรือเซ็ต', 1)","('การทำงานกับค่าที่ไม่แน่นอน', 0)","('การทำงานกับฟังก์ชัน', 0)",Control Flow,Easy
+13,"ในภาษา Python, คำสั่ง break ใช้เพื่ออะไร?","('ออกจาก loop ทันที', 1)","('ไปที่คำสั่งต่อไป', 0)","('วนซ้ำคำสั่ง', 0)","('หยุดการทำงานของโปรแกรม', 0)",Control Flow,Medium
+14,"ในภาษา Python, การใช้ try-except-finally มีความหมายว่าอะไร?","('จัดการกับข้อผิดพลาดที่เกิดขึ้น', 1)","('ทำคำสั่งที่กำหนด', 0)","('วนซ้ำคำสั่ง', 0)","('หยุดการทำงานของโปรแกรม', 0)",Control Flow,Hard
+15,"ในภาษา Python, keyword'return' ใช้เพื่ออะไร?","('ส่งคืนค่าจากฟังก์ชัน', 1)","('ทำคำสั่งที่กำหนด', 0)","('วนซ้ำคำสั่ง', 0)","('หยุดการทำงานของโปรแกรม', 0)",Control Flow,Hard
+16,"ในภาษา Python, การใช้ elif มีความหมายว่าอะไร?","('ตรวจสอบเงื่อนไขเพิ่มเติมหลังจาก if', 1)","('ตรวจสอบเงื่อนไขหลังจาก else', 0)","('วนซ้ำคำสั่ง', 0)","('หยุดการทำงานของโปรแกรม', 0)",Control Flow,Medium
+17,"ในภาษา Python, การใช้ else ใน statement if-else ทำหน้าที่อะไร?","('ทำคำสั่งเมื่อเงื่อนไขเป็นจริง', 0)","('ทำคำสั่งเมื่อเงื่อนไขเป็นเท็จ', 1)","('ทำคำสั่งเมื่อเงื่อนไขไม่แน่นอน', 0)","('ไม่มีผลต่อการทำงานของโปรแกรม', 0)",Control Flow,Medium
+18,"ในภาษา Python, คำสั่ง assert ใช้สำหรับอะไร?","('การตรวจสอบเงื่อนไข', 0.75)","('การทำงานร่วมกัน', 0)","('การวนซ้ำ', 0)","('การจัดการข้อมูล', 0)",Control Flow,Hard
+19,"ในภาษา Python, keyword 'continue' ใช้เพื่ออะไร?","('ออกจาก loop ทันที', 0)","('ไปที่คำสั่งต่อไป', 0)","('วนซ้ำคำสั่งใน loop', 1)","('หยุดการทำงานของโปรแกรม', 0)",Control Flow,Medium
+20,"ในภาษา Python, คำสั่ง try-except ใช้สำหรับอะไร?","('การจัดการข้อผิดพลาด', 0.75)","('การทำงานร่วมกัน', 0)","('การวนซ้ำ', 0)","('การจัดการข้อมูล', 0)",Control Flow,Hard
+21,"ในภาษา Python, คำสั่ง raise ใช้สำหรับอะไร?","('การสร้างข้อผิดพลาด', 0.75)","('การทำงานร่วมกัน', 0)","('การวนซ้ำ', 0)","('การจัดการข้อมูล', 0)",Control Flow,Hard
+22,"ในภาษา Python, คำสั่ง if ใช้สำหรับอะไร?","('การวนซ้ำ', 0)","('การตัดสินใจ', 0.75)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)",Control Flow,Easy
+23,"ในภาษา Python, คำสั่ง elif ใช้สำหรับอะไร?","('การตัดสินใจหลายครั้ง', 0.5)","('การวนซ้ำ', 0)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)",Control Flow,Medium
+24,"ในภาษา Python, คำสั่ง for ใช้สำหรับอะไร?","('การวนซ้ำ', 0.75)","('การตัดสินใจ', 0)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)",Control Flow,Easy
+25,"ในภาษา Python, คำสั่ง while ใช้สำหรับอะไร?","('การวนซ้ำ', 0.75)","('การตัดสินใจ', 0)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)",Control Flow,Medium
+26,การใช้ if-else ในภาษา Python มีวัตถุประสงค์เพื่ออะไร?,"('ตรวจสอบเงื่อนไขที่กำหนด', 0.25)","('ทำซ้ำคำสั่งหลายครั้ง', 0)","('เลือกทำคำสั่งที่เหมาะสมตามเงื่อนไข', 1)","('รับข้อมูลจากผู้ใช้', 0)",Control Flow,Easy
+27,"ในภาษา Python, คำสั่ง break ใช้สำหรับอะไร?","('การหยุดการวนซ้ำ', 0.75)","('การเริ่มต้นใหม่', 0)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)",Control Flow,Medium
+28,"ในภาษา Python, คำสั่ง continue ใช้สำหรับอะไร?","('การวนซ้ำต่อไป', 0.75)","('การหยุดการวนซ้ำ', 0)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)",Control Flow,Medium
+29,"ในภาษา Python, คำสั่ง pass ใช้สำหรับอะไร?","('การทำอะไรไม่ได้', 0.75)","('การทำงานร่วมกัน', 0)","('การจัดการข้อมูล', 0)","('การวนซ้ำ', 0)",Control Flow,Easy
+30,การสร้าง decorator ใน Python จำเป็นต้องใช้คำสั่งอะไร?,"('@symbol', 1)","('def keyword', 0)","('class keyword', 0)","('import statement', 0)",Decorators,Medium
+31,Decorator ใช้ในการทำอะไร?,"('เพิ่มฟังก์ชันให้กับฟังก์ชันอื่น', 0.5)","('ลดความซับซ้อนของโค้ด', 0.25)","('เพิ่มความเร็วในการทำงาน', 0)","('ทั้งหมดข้างต้น', 1)",Decorators,Easy
+32,การใช้งาน Decorator มีข้อดีอย่างไร?,"('สามารถเพิ่มฟังก์ชันให้กับฟังก์ชันอื่น', 0.5)","('สามารถลดความซับซ้อนของโค้ด', 0.25)","('สามารถเพิ่มความเร็วในการทำงาน', 0)","('ทั้งหมดข้างต้น', 1)",Decorators,Medium
+33,การสร้าง decorator ที่มีการ return ค่าใน Python ทำอย่างไร?,"('ใช้ return statement ภายใน decorator', 1)","('ใช้ yield statement ภายใน decorator', 0)","('ไม่สามารถทำได้', 0)","('ใช้ print statement ภายใน decorator', 0)",Decorators,Medium
+34,ฟังก์ชันใดที่ใช้ในการสร้าง Decorator?,"('functools.wraps()', 0.25)","(' functools.update_wrapper()', 0)","(' functools.register()', 0)","('None of the above', 1)",Decorators,Easy
+35,ต้องการใช้ฟังก์ชันใดในการสร้าง decorator ในภาษา Python?,"('@classmethod', 0.25)","('@staticmethod', 0.25)","('@property', 0.25)","('@decorator', 1)",Decorators,Easy
+36,Decorator ที่ถูกสร้างขึ้นจากฟังก์ชันใด?,"('function', 0.5)","('class', 0.25)","('generator', 0)","('None of the above', 1)",Decorators,Medium
+37,การสร้าง decorator ที่มีการตรวจสอบข้อผิดพลาดใน Python ทำอย่างไร?,"('ใช้ try-except block ภายใน decorator', 1)","('ใช้ if-else statement ภายใน decorator', 0)","('ใช้ loop ภายใน decorator', 0)","('ไม่สามารถทำได้', 0)",Decorators,Hard
+38,การสร้าง decorator ที่รับ argument ใน Python ทำอย่างไร?,"('ใช้ฟังก์ชันที่รับค่า argument แล้วคืนค่าฟังก์ชัน', 1)","('ใช้ class ที่มีฟังก์ชันพิเศษ', 0)","('ใช้ lambda function', 0)","('ใช้ generator function', 0)",Decorators,Hard
+39,ตัวอย่างโค้ด Python ด้านล่างนี้ทำอะไร?,"('สร้าง decorator ที่เพิ่มฟังก์ชัน', 1)","('สร้าง context manager ที่จัดการทรัพยากร', 0)","('สร้าง class ที่มีฟังก์ชันพิเศษ', 0)","('สร้าง module ที่มีฟังก์ชันหลายๆ ตัว', 0)",Decorators,Easy
+40,วิธีการลบข้อมูลใน dictionary คือ?,"('del()', 1)","('remove()', 0.75)","('pop()', 0.5)","('clear()', 0)",Dictionaries,Medium
+41,วิธีการเข้าถึงค่าใน Dictionary คือ?,"('ผ่าน key', 1)","('ผ่าน index', 0)","('ผ่าน value', 0)","('ไม่สามารถเข้าถึงได้', 0)",Dictionaries,Easy
+42,การลบ key และ value ออกจาก Dictionary ใช้คำสั่งใด?,"('del()', 0.75)","('pop()', 0.25)","('remove()', 0)","('delete()', 0)",Dictionaries,Medium
+43,วิธีการตรวจสอบว่า key มีอยู่ใน Dictionary หรือไม่ คือ?,"('if key in dict:', 1)","('if key == dict:', 0)","('if key not in dict:', 0)","('if key!= dict:', 0)",Dictionaries,Medium
+44,การเพิ่มค่าใหม่ลงใน Dictionary ใช้วิธีการใด?,"('dict[key] = value', 1)","('dict.add(key, value)', 0)","('dict.append(key, value)', 0)","('dict.insert(key, value)', 0)",Dictionaries,Easy
+45,วิธีการคัดลอก Dictionary คือ?,"('dict.copy()', 0.75)","('dict.clone()', 0)","('dict dup()', 0)","('dict = old_dict', 0.25)",Dictionaries,Medium
+46,การเรียงลำดับ key ใน Dictionary ใช้คำสั่งใด?,"('sorted(dict.keys())', 1)","('dict.sort()', 0)","('dict.order()', 0)","('dictArrange()', 0)",Dictionaries,Hard
+47,การรวม Dictionary สองอันเข้าด้วยกันใช้วิธีการใด?,"('dict.update(other_dict)', 0.75)","('dict + other_dict', 0)","('dict.merge(other_dict)', 0)","('dict.join(other_dict)', 0)",Dictionaries,Medium
+48,การค้นหาค่าที่น้อยที่สุดใน Dictionary ใช้วิธีการใด?,"('min(dict.values())', 1)","('dict.min()', 0)","('dict.minimum()', 0)","('dictlowest()', 0)",Dictionaries,Hard
+49,วิธีการเพิ่มข้อมูลใน dictionary คือ?,"('append()', 0)","('update()', 0.75)","('insert()', 0.5)","('add()', 0)",Dictionaries,Medium
+50,การลบ key-value pair ออกจาก dictionary ของภาษา Python สามารถทำได้โดยใช้ method อะไร?,"('del', 1)","('pop', 0.75)","('clear', 0.5)","('remove', 0)",Dictionaries,Medium
+51,การเพิ่ม key-value pair เข้าไปใน dictionary ของภาษา Python สามารถทำได้โดยใช้วิธีใด?,"('โดยใช้ assignment', 1)","('โดยใช้ update', 0.75)","('โดยใช้ setdefault', 0.5)","('ไม่สามารถเพิ่มได้', 0)",Dictionaries,Medium
+52,วิธีการเข้าถึง value ที่อยู่ใน dictionary ของภาษา Python คือ?,"('โดยใช้ key', 1)","('โดยใช้ index', 0.25)","('โดยใช้ value', 0.5)","('ไม่สามารถเข้าถึงได้', 0)",Dictionaries,Easy
+53,คำสั่งใดใน Python ที่ใช้เพื่อสร้าง Dictionary?,"('dict()', 0.75)","('list()', 0)","('tuple()', 0)","('set()', 0)",Dictionaries,Easy
+54,การสร้าง dictionary ในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('()', 0)","('[]', 0.5)","('{}', 1)","('.', 0)",Dictionaries,Easy
+55,การค้นหาค่าที่มากที่สุดใน Dictionary ใช้วิธีการใด?,"('max(dict.values())', 1)","('dict.max()', 0)","('dict.maximum()', 0)","('dicthighest()', 0)",Dictionaries,Hard
+56,การเข้าถึงค่าใน dictionary สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('[]', 1)","('()', 0)","('{}', 0.5)","('.', 0)",Dictionaries,Easy
+57,ในการทำ Error Handling ใน Python ควรใช้คำสั่ง try...except อย่างไร?,"('โดยไม่ระบุชนิดของข้อผิดพลาด', 0)","('โดยระบุชนิดของข้อผิดพลาด', 1)","('โดยไม่มีคำสั่ง else', 0.5)","('โดยไม่มีคำสั่ง finally', 0)",ErrorHandling,Hard
+58,เมื่อใช้คำสั่ง try...except ใน Python แล้วพบข้อผิดพลาด จะเกิดอะไรขึ้น?,"('โปรแกรมจะหยุดทำงานทันที', 0)","('โปรแกรมจะกระโดดไปที่ส่วนของ except และทำงานต่อ', 1)","('โปรแกรมจะแสดงข้อความแจ้งเตือน', 0.5)","('ไม่มีอะไรเกิดขึ้น', 0)",ErrorHandling,Medium
+59,การใช้คำสั่ง try...finally ใน Python มีความสำคัญอย่างไร?,"('เพื่อจัดการกับข้อมูลที่เป็น sensitive data', 0.5)","('เพื่อป้องกันการรั่วไหลของข้อมูล', 0.5)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งาน', 1)","('เพื่อเพิ่มความเร็วในการทำงานของโปรแกรม', 0)",ErrorHandling,Hard
+60,ใน Python คำสั่ง assert ถูกใช้เพื่ออะไร?,"('เพื่อตรวจสอบเงื่อนไขที่ต้องการ', 1)","('เพื่อสร้างข้อผิดพลาดใหม่', 0.5)","('เพื่อแสดงข้อความแจ้งเตือน', 0)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งาน', 0)",ErrorHandling,Medium
+61,ในภาษา Python การจัดการกับข้อผิดพลาด (ErrorHandling) สามารถทำได้โดยใช้คำสั่งใด?,"('try...except', 1)","('if...else', 0)","('for...loop', 0)","('while...loop', 0)",ErrorHandling,Easy
+62,ใน Python คำสั่ง raise ถูกใช้เพื่ออะไร?,"('เพื่อสร้างข้อผิดพลาดใหม่', 1)","('เพื่อจัดการกับข้อผิดพลาดที่เกิดขึ้น', 0.5)","('เพื่อแสดงข้อความแจ้งเตือน', 0)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งาน', 0)",ErrorHandling,Medium
+63,ในกรณีที่ต้องการจับข้อผิดพลาดที่เฉพาะเจาะจงใน Python ควรใช้คำสั่งใด?,"('except Exception:', 0.5)","('except ZeroDivisionError:', 1)","('except TypeError:', 0)","('except ValueError:', 0)",ErrorHandling,Medium
+64,เมื่อใช้คำสั่ง try...except ใน Python แล้วมีข้อผิดพลาดเกิดขึ้น คำสั่งที่จะถูกเรียกใช้คือ?,"('except', 1)","('finally', 0.5)","('else', 0)","('raise', 0)",ErrorHandling,Medium
+65,ใน Python การใช้คำสั่ง try...except...finally มีความสำคัญอย่างไร?,"('เพื่อจัดการกับข้อมูลที่เป็น sensitive data', 0.5)","('เพื่อป้องกันการรั่วไหลของข้อมูล', 0.5)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งานและจัดการกับข้อผิดพลาด', 1)","('เพื่อเพิ่มความเร็วในการทำงานของโปรแกรม', 0)",ErrorHandling,Hard
+66,คำสั่ง finally ใน Python ใช้เพื่ออะไร?,"('จัดการกับข้อผิดพลาด', 0.5)","('ทำความสะอาดทรัพยากร', 1)","('เรียกใช้งานฟังก์ชัน', 0)","('วนลูป', 0)",ErrorHandling,Medium
+67,คำสั่ง raise ใน Python ใช้เพื่ออะไร?,"('สร้างข้อผิดพลาด', 1)","('จัดการกับข้อผิดพลาด', 0)","('ทำความสะอาดทรัพยากร', 0)","('วนลูป', 0)",ErrorHandling,Medium
+68,ในกรณีที่ต้องการจัดการกับข้อผิดพลาดที่ไม่คาดคิด Python มีคำสั่งใดที่สามารถใช้ได้?,"('except Exception:', 1)","('except ZeroDivisionError:', 0)","('except TypeError:', 0)","('except ValueError:', 0)",ErrorHandling,Hard
+69,คำสั่ง assert ใน Python ใช้เพื่ออะไร?,"('ตรวจสอบเงื่อนไข', 1)","('จัดการกับข้อผิดพลาด', 0)","('ทำความสะอาดทรัพยากร', 0)","('วนลูป', 0)",ErrorHandling,Medium
+70,คำสั่ง else ใน Python ใช้เพื่ออะไร?,"('จัดการกับข้อผิดพลาด', 0)","('ทำความสะอาดทรัพยากร', 0)","('วนลูป', 0)","('ประมวลผลเมื่อไม่มีข้อผิดพลาด', 1)",ErrorHandling,Medium
+71,การทำ Error Handling ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('try...except', 1)","('if...else', 0)","('while...break', 0)","('for...in', 0)",ErrorHandling,Easy
+72,ใน Python การใช้คำสั่ง with statement มีความสำคัญอย่างไร?,"('เพื่อจัดการกับไฟล์และทรัพยากรอื่นๆ', 1)","('เพื่อเพิ่มความเร็วในการทำงานของโปรแกรม', 0)","('เพื่อแสดงข้อความแจ้งเตือน', 0)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งาน', 0.5)",ErrorHandling,Medium
+73,ใน Python คำสั่ง except ถูกใช้เพื่อรับมือกับข้อผิดพลาดแบบใด?,"('เฉพาะข้อผิดพลาดที่ระบุ', 1)","('ทุกข้อผิดพลาดที่เกิดขึ้น', 0.5)","('ไม่สามารถรับมือกับข้อผิดพลาด', 0)","('เพื่อแสดงข้อความแจ้งเตือน', 0)",ErrorHandling,Easy
+74,ใน Python คำสั่ง traceback module ถูกใช้เพื่ออะไร?,"('เพื่อแสดงข้อความแจ้งเตือน', 0)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งาน', 0)","('เพื่อแสดงข้อมูลเกี่ยวกับข้อผิดพลาดที่เกิดขึ้น', 1)","('เพื่อเพิ่มความเร็วในการทำงานของโปรแกรม', 0)",ErrorHandling,Hard
+75,ใน Python การใช้คำสั่ง logging module มีความสำคัญอย่างไร?,"('เพื่อแสดงข้อความแจ้งเตือน', 0.5)","('เพื่อทำความสะอาดทรัพยากรที่ใช้งาน', 0)","('เพื่อบันทึกเหตุการณ์ที่เกิดขึ้นในโปรแกรม', 1)","('เพื่อเพิ่มความเร็วในการทำงานของโปรแกรม', 0)",ErrorHandling,Medium
+76,ฟังก์ชันใน Python สามารถรับค่าอะไรได้บ้าง?,"('ค่าที่กำหนด', 0.75)","('ค่าที่ไม่กำหนด', 0)","('ค่าที่เป็นตัวเลข', 0.25)","('ค่าที่เป็นตัวอักษร', 0.5)",Functions,Easy
+77,ฟังก์ชันในภาษา Python สามารถรับค่าอะไรได้บ้าง?,"('ค่าที่กำหนด', 0.75)","('ค่าที่ไม่กำหนด', 0)","('ค่าที่เป็นตัวเลข', 0.25)","('ค่าที่เป็นตัวอักษร', 0.5)",Functions,Easy
+78,คำสั่งไหนใช้ในการเรียกใช้งานฟังก์ชัน?,"('print()', 0)","('call()', 0)","('function()', 0)","('ฟังก์ชันชื่อ()', 1)",Functions,Easy
+79,ฟังก์ชันใน Python สามารถทำอะไรได้บ้าง?,"('คำนวณผลลัพธ์', 0.5)","('จัดการข้อมูล', 0.5)","('แสดงผลลัพธ์', 0)","('ทั้งหมดข้างต้น', 1)",Functions,Medium
+80,คำสั่งไหนที่ใช้ในการเรียกใช้งานฟังก์ชันใน Python?,"('print()', 0)","('call()', 0)","('function()', 0)","('()', 0.75)",Functions,Easy
+81,ฟังก์ชันใน Python สามารถคืนค่าได้กี่ค่า?,"('1 ค่า', 0.75)","('หลายค่า', 0)","('ไม่สามารถคืนค่าได้', 0)","('ขึ้นอยู่กับฟังก์ชัน', 0.25)",Functions,Medium
+82,การสร้างฟังก์ชันใน Python ใช้คำสั่งอะไร?,"('def', 0.75)","('function', 0)","('create', 0)","('make', 0.25)",Functions,Easy
+83,ฟังก์ชันใน Python สามารถเรียกใช้งานตัวเองได้หรือไม่?,"('สามารถ', 0.75)","('ไม่สามารถ', 0)","('ขึ้นอยู่กับฟังก์ชัน', 0.25)","('ไม่แน่ใจ', 0)",Functions,Medium
+84,การรับค่าที่ผู้ใช้ป้อนเข้ามาในภาษา Python สามารถทำได้ด้วยคำสั่งใดบ้าง?,"('input() และ eval()', 1)","('read() และ parse()', 0.5)","('get() และ decode()', 0.25)","('receive() และ interpret()', 0)",InputandOutput,Easy
+85,ถ้าเราต้องการแสดงผลลัพธ์แบบมีการจัดรูปแบบในภาษา Python ควรใช้คำสั่งใด?,"('print(format())', 1)","('display(format())', 0.75)","('println(format())', 0.5)","('write(format())', 0.25)",InputandOutput,Hard
+86,การทำงานของคำสั่ง int(input()) ใน Python คืออะไร?,"('รับค่าข้อมูลเป็นตัวเลขจากผู้ใช้', 1)","('พิมพ์ข้อความออกมา', 0)","('ทำการคำนวณ', 0)","('จัดเก็บข้อมูล', 0)",InputandOutput,Hard
+87,ถ้าเราต้องการรับค่าที่ผู้ใช้ป้อนเข้ามาในภาษา Python ควรใช้คำสั่งใด?,"('input()', 1)","('read()', 0.5)","('get()', 0.25)","('receive()', 0)",InputandOutput,Easy
+88,ถ้าเราต้องการแสดงผลลัพธ์แบบไม่มีการขึ้นบรรทัดใหม่ในภาษา Python ควรใช้คำสั่งใด?,"(""print('Hello, World!', end='')"", 1)","(""print('Hello, World!', newline=False)"", 0.75)","(""println('Hello, World!')"", 0.5)","(""display('Hello, World!')"", 0.25)",InputandOutput,Medium
+89,การแสดงผลลัพธ์ในภาษา Python สามารถทำได้ด้วยฟังก์ชันใดบ้าง?,"('print() และ input()', 1)","('display() และ writeln()', 0.5)","('echo() และ readln()', 0.25)","('write() และ show()', 0)",InputandOutput,Medium
+90,โค้ด Python ด้านล่างนี้จะพิมพ์อะไรออกมา,"('Hello, World!', 1)","('Python is fun!', 0)","('Error', 0)","('Nothing', 0)",InputandOutput,Easy
+91,"โค้ด Python ด้านล่างนี้จะพิมพ์อะไรออกมา
+x = 5
+y = 3
+print(x + y)","('8', 1)","('Error', 0)","('5', 0)","('3', 0)",InputandOutput,Medium
+92,การเขียน print() ใน Python ใช้สำหรับอะไร?,"('พิมพ์ข้อความหรือข้อมูลออกมา', 1)","('รับค่าข้อมูลจากผู้ใช้', 0)","('ทำการคำนวณ', 0)","('จัดเก็บข้อมูล', 0)",InputandOutput,Easy
+93,"โค้ด Python ด้านล่างนี้จะพิมพ์อะไรออกมา
+name = 'John'
+print('Hello,'+ name)","('Hello, John', 1)","('Error', 0)","('Hello, ', 0)","('John', 0)",InputandOutput,Medium
+94,ใน Python เราสามารถพิมพ์ข้อความหลายบรรทัดได้โดยใช้คำสั่งใด?,"('print()', 0.75)","('input()', 0)","(""print('''text''')"", 0.25)","('print(""""""text"""""")', 1)",InputandOutput,Medium
+95,การทำงานของคำสั่ง input() ใน Python คืออะไร?,"('รับค่าข้อมูลจากผู้ใช้', 1)","('พิมพ์ข้อความออกมา', 0)","('ทำการคำนวณ', 0)","('จัดเก็บข้อมูล', 0)",InputandOutput,Medium
+96,"โค้ด Python ด้านล่างนี้จะพิมพ์อะไรออกมา
+name = input('What is your name? ')
+print(name)","('What is your name? ', 0)","('Name not defined', 0)","(""User's input"", 1)","('Error', 0)",InputandOutput,Hard
+97,"โค้ด Python ด้านล่างนี้จะพิมพ์อะไรออกมา
+num = int(input('Enter a number: '))
+print(num + 5)","(""User's input + 5"", 1)","('Error', 0)","('5', 0)","(""User's input"", 0)",InputandOutput,Hard
+98,เมื่อเราพิมพ์คำสั่ง print('Hello') ใน Python จะเกิดอะไรขึ้น?,"(""พิมพ์ 'Hello' ออกมา"", 1)","('ไม่มีอะไรเกิดขึ้น', 0)","('Error', 0)","(""พิมพ์ 'hello' ออกมา"", 0)",InputandOutput,Easy
+99,การแสดงผลลัพธ์ในภาษา Python สามารถทำได้ด้วยคำสั่งใดบ้าง?,"('print() และ input()', 1)","('display() และ println()', 0.5)","('echo() และ read()', 0.25)","('write() และ show()', 0)",InputandOutput,Easy
+100,ถ้าเราต้องการรับค่าที่ผู้ใช้ป้อนเข้ามาและแปลงเป็นตัวเลขในภาษา Python ควรใช้คำสั่งใด?,"('int(input())', 1)","('float(input())', 0.75)","('eval(input())', 0.5)","('parse(input())', 0.25)",InputandOutput,Medium
+101,"เมื่อเราพิมพ์คำสั่ง print('Hello, World!') ในภาษา Python ผลลัพธ์ที่ได้จะเป็นอย่างไร?","('Hello, World!', 1)","(""'Hello, World!'"", 0.75)","(""print('Hello, World!')"", 0.25)","('Error', 0)",InputandOutput,Easy
+102,ถ้าเราต้องการแสดงผลลัพธ์แบบไม่มีบรรทัดใหม่ในภาษา Python ควรใช้คำสั่งใด?,"(""print('Hello, World!', end='')"", 1)","(""print('Hello, World!', newline=False)"", 0.5)","(""println('Hello, World!')"", 0.25)","(""display('Hello, World!')"", 0)",InputandOutput,Medium
+103,"เมื่อคุณใช้ฟังก์ชัน next() กับ iterator ที่ไม่มีค่าใดๆ อีก, จะเกิดอะไรขึ้น?","('จะแสดงค่า None', 0)","(""จะแสดงข้อความ 'No more items'"", 0)","('จะเกิด StopIteration Exception', 1)","('จะวน loop ไปเรื่อยๆ', 0)",IteratorsandGenerators,Medium
+104,ประโยชน์ของการใช้ generator แทน list comprehension ในภาษา Python คืออะไร?,"('ช่วยลดการใช้ memory เนื่องจากไม่ต้องสร้าง list ทั้งหมด', 1)","('ช่วยเพิ่มการใช้ memory เนื่องจากต้องสร้าง list ทั้งหมด', 0)","('ช่วยลดเวลาในการประมวลผล', 0.5)","('ไม่มีประโยชน์ใดๆ', 0.25)",IteratorsandGenerators,Hard
+105,ความหมายของ StopIteration exception ในภาษา Python คืออะไร?,"('แสดงว่าการวนซ้ำผ่าน iterator หรือ generator นั้นเสร็จสิ้นแล้ว', 1)","('แสดงว่าการวนซ้ำผ่าน iterator หรือ generator ยังไม่เสร็จสิ้น', 0.25)","('แสดงว่าการวนซ้ำผ่าน list หรือ tuple นั้นเสร็จสิ้นแล้ว', 0.5)","('ไม่มีความหมายใดๆ', 0)",IteratorsandGenerators,Medium
+106,เมื่อไหร่ที่ควรใช้ generator แทน list ใน Python?,"('เมื่อคุณต้องการเก็บข้อมูลขนาดใหญ่', 1)","('เมื่อคุณต้องการวน loop ผ่านข้อมูลหลายครั้ง', 0)","('เมื่อคุณต้องการใช้งานกับฟังก์ชันที่รองรับ generator', 0.5)","('ไม่มีกรณีที่ควรใช้ generator แทน list', 0)",IteratorsandGenerators,Hard
+107,ความสำคัญของการใช้ generator ใน Python คืออะไร?,"('ช่วยลดการใช้ memory', 1)","('ช่วยเพิ่มความเร็วในการประมวลผล', 0.5)","('ช่วยลดความซับซ้อนของโค้ด', 0.5)","('ไม่มีความสำคัญใดๆ', 0)",IteratorsandGenerators,Hard
+108,การทำงานของ generator ใน Python คืออะไร?,"('สร้างค่าขึ้นมาทีละหนึ่งและเก็บค่าที่สร้างไว้ใน memory', 1)","('สร้างค่าขึ้นมาทีละหนึ่งแต่ไม่เก็บค่าที่สร้างไว้ใน memory', 0)","('ใช้ค่าที่มีอยู่แล้วและวน loop ไปเรื่อยๆ', 0)","('ไม่สามารถทำงานร่วมกับฟังก์ชันใดๆ', 0)",IteratorsandGenerators,Medium
+109,ฟังก์ชันใดใน Python ที่สามารถใช้ร่วมกับ generator?,"('map()', 1)","('filter()', 1)","('reduce()', 0.5)","('sorted()', 0)",IteratorsandGenerators,Medium
+110,คำสั่งไหนที่ใช้สำหรับการเรียกใช้งาน iterator ใน Python?,"('next()', 1)","('iter()', 0)","('len()', 0)","('range()', 0)",IteratorsandGenerators,Easy
+111,การทำงานของฟังก์ชัน iter() ในภาษา Python คืออะไร?,"('สร้าง iterator จาก object ที่กำหนด', 1)","('สร้าง generator จาก object ที่กำหนด', 0.25)","('สร้าง list จาก object ที่กำหนด', 0.5)","('ไม่มีการทำงานใดๆ', 0)",IteratorsandGenerators,Medium
+112,การทำงานของฟังก์ชัน next() ในภาษา Python คืออะไร?,"('เรียกใช้งานเจเนอเรเตอร์ (generator) ให้ผลิตค่าถัดไป', 1)","('เรียกใช้งาน list ให้ผลิตค่าถัดไป', 0.25)","('เรียกใช้งาน tuple ให้ผลิตค่าถัดไป', 0.5)","('ไม่มีการทำงานใดๆ', 0)",IteratorsandGenerators,Medium
+113,"ในภาษา Python, คุณสามารถใช้ฟังก์ชันใดในการสร้าง iterator?","('iter()', 0.75)","('next()', 0.25)","('len()', 0)","('range()', 0)",IteratorsandGenerators,Easy
+114,เมื่อเรียกใช้งานเจเนอเรเตอร์ (generator) ในภาษา Python จะเกิดอะไรขึ้น?,"('จะวนซ้ำๆผ่านทุก element ใน sequence', 0.25)","('จะวนผ่าน element ใน sequence เพียงครั้งเดียว', 1)","('จะสร้าง sequence ของค่าที่ต้องการ', 0.5)","('จะไม่เกิดอะไรขึ้น', 0)",IteratorsandGenerators,Medium
+115,การทำงานของเจเนอเรเตอร์ (generator) ในภาษา Python คืออะไร?,"('สร้าง sequence ของค่าที่ต้องการ', 1)","('วนซ้ำๆผ่านทุก element ใน sequence', 0.25)","('วนผ่าน element ใน sequence เพียงครั้งเดียว', 0.5)","('ไม่สามารถสร้าง sequence ของค่าที่ต้องการได้', 0)",IteratorsandGenerators,Medium
+116,คำสั่งใดในภาษา Python ที่ใช้สำหรับการสร้าง generator?,"('yield', 1)","('return', 0.25)","('next()', 0.5)","('iter()', 0)",IteratorsandGenerators,Easy
+117,ความแตกต่างระหว่าง iterator และ generator คืออะไร?,"('iterator สามารถวน loop ได้หลายรอบ แต่ generator ไม่สามารถทำได้', 0)","('generator สามารถวน loop ได้หลายรอบ แต่ iterator ไม่สามารถทำได้', 0)","('generator สร้างค่าขึ้นมาทีละหนึ่ง แต่ iterator ใช้ค่าที่มีอยู่แล้ว', 1)","('generator ใช้ค่าที่มีอยู่แล้ว แต่ iterator สร้างค่าขึ้นมาทีละหนึ่ง', 0)",IteratorsandGenerators,Hard
+118,คุณสามารถใช้วิธีใดในการตรวจสอบว่า iterator ยังมีค่าเหลืออยู่หรือไม่?,"('การใช้ try-except block', 1)","('การใช้ len() function', 0)","('การใช้ next() function', 0)","('การใช้ range() function', 0)",IteratorsandGenerators,Hard
+119,ฟังก์ชันใดใน Python ที่ใช้สำหรับการสร้าง generator?,"('generator()', 0)","('iter()', 0)","('yield', 1)","('next()', 0)",IteratorsandGenerators,Medium
+120,ฟังก์ชันใดในภาษา Python ที่สามารถสร้าง generator ได้?,"('def', 0.75)","('generator()', 0)","('iter()', 0.25)","('yield()', 1)",IteratorsandGenerators,Medium
+121,การทำงานของอิเทอเรเตอร์ (iterator) ในภาษา Python คืออะไร?,"('วนซ้ำๆผ่านทุก element ใน sequence', 1)","('วนซ้ำๆผ่านบาง element ใน sequence', 0.25)","('วนผ่าน element ใน sequence เพียงครั้งเดียว', 0.5)","('ไม่สามารถวนผ่าน element ใน sequence ได้', 0)",IteratorsandGenerators,Easy
+122,ความแตกต่างระหว่าง list comprehension และ generator expression ในภาษา Python คืออะไร?,"('list comprehension สร้าง list ขึ้นมาทันที ส่วน generator expression สร้าง generator', 1)","('list comprehension สร้าง generator ขึ้นมาทันที ส่วน generator expression สร้าง list', 0)","('ทั้งสองอย่างสร้าง list ขึ้นมาทันที', 0.25)","('ทั้งสองอย่างสร้าง generator ขึ้นมาทันที', 0.5)",IteratorsandGenerators,Hard
+123,การเรียกใช้ฟังก์ชัน sort() กับ list จะทำให้ list นั้นถูกจัดเรียงอย่างไร?,"('จากน้อยไปมาก', 0.5)","('จากมากไปน้อย', 0.75)","('ไม่มีการจัดเรียง', 0)","('ตามลำดับอักขระ', 1)",List,Medium
+124,ความสามารถของ list comprehension คืออะไร?,"('สามารถสร้าง list ใหม่จาก list เดิม', 1)","('สามารถลบข้อมูลใน list', 0)","('สามารถค้นหาข้อมูลใน list', 0)","('ไม่สามารถทำอะไรได้', 0)",List,Easy
+125,เมื่อเรียกใช้ฟังก์ชัน len() กับ list จะได้ค่าอะไรกลับมา?,"('จำนวนสมาชิกใน list', 1)","('ความยาวของ list', 0.75)","('ค่าแรกสุดใน list', 0)","('ค่าสุดท้ายใน list', 0)",List,Easy
+126,ถ้าเรามี list ที่ชื่อ fruits และต้องการสร้าง list ใหม่ที่มีชื่อว่า new_fruits โดยใช้เฉพาะผลไม้ที่มีขนาดมากกว่า 5 ตัวอักษร จะสามารถทำได้ด้วยคำสั่งอะไร?,"('new_fruits = [fruit for fruit in fruits if len(fruit) > 5]', 1)","('new_fruits = [fruit for fruit in fruits if len(fruit) < 5]', 0)","('new_fruits = fruits[:5]', 0)","('new_fruits = fruits[5:]', 0)",List,Medium
+127,การทำงานของ list comprehension คืออะไร?,"('การสร้าง list ใหม่จาก list เดิม', 1)","('การลบข้อมูลใน list', 0)","('การค้นหาข้อมูลใน list', 0)","('การเรียงลำดับข้อมูลใน list', 0)",List,Easy
+128,ถ้าเรามี list ที่ชื่อ numbers และต้องการสร้าง list ใหม่ที่มีชื่อว่า even_numbers โดยใช้เฉพาะตัวเลขที่เป็นเลขคู่ จะสามารถทำได้ด้วยคำสั่งอะไร?,"('even_numbers = [num for num in numbers if num % 2 == 0]', 1)","('even_numbers = [num for num in numbers if num % 2!= 0]', 0)","('even_numbers = numbers[:len(numbers)//2]', 0)","('even_numbers = numbers[len(numbers)//2:]', 0)",List,Medium
+129,ถ้าเรามี list ที่ชื่อ words และต้องการสร้าง list ใหม่ที่มีชื่อว่า reversed_words โดยใช้คำที่ถูกกลับหลัง จะสามารถทำได้ด้วยคำสั่งอะไร?,"('reversed_words = [word[::-1] for word in words]', 1)","('reversed_words = [word[1:] for word in words]', 0)","('reversed_words = words[:len(words)//2]', 0)","('reversed_words = words[len(words)//2:]', 0)",List,Medium
+130,ถ้าเรามี list ที่ชื่อ students และต้องการสร้าง list ใหม่ที่มีชื่อว่า passing_students โดยใช้นักเรียนที่ได้คะแนนมากกว่าหรือเท่ากับ 60 จะสามารถทำได้ด้วยคำสั่งอะไร?,"(""passing_students = [student for student in students if student['grade'] >= 60]"", 1)","(""passing_students = [student for student in students if student['grade'] <= 60]"", 0)","('passing_students = students[:len(students)//2]', 0)","('passing_students = students[len(students)//2:]', 0)",List,Medium
+131,"ถ้าเรามี list ที่ชื่อว่า my_list = [1, 2, 3, 4, 5] และเราต้องการสร้าง list ใหม่ที่มีค่าเป็นเลขคู่จาก list เดิม เราสามารถใช้ list comprehension ดังนี้:","('[x for x in my_list if x % 2 == 0]', 0.75)","('[x for x in my_list if x % 2!= 0]', 0)","('[x*2 for x in my_list]', 0)","('[x+2 for x in my_list]', 0.25)",List,Medium
+132,"ถ้าเรามี list ที่ชื่อว่า words = ['python', 'is', 'awesome'] และเราต้องการรวมข้อมูลใน list นี้เป็น string เดียว เราสามารถใช้วิธีการใด?","(""' '.join(words)"", 0.75)","(""','.join(words)"", 0)","(""'_'.join(words)"", 0.25)","(""words.join('')"", 0)",List,Medium
+133,ในการทำงานกับ list comprehension เราสามารถใช้วิธีการใดในการเรียงลำดับข้อมูลใน list?,"('sort()', 0.75)","('order()', 0)","('arrange()', 0)","('organize()', 0.25)",List,Medium
+134,"ถ้าเรามี list ที่ชื่อว่า mixed = [1, 'a', 2, 'b', 3, 'c'] และเราต้องการแยกข้อมูลเป็น list ของตัวเลขและ list ของตัวอักษร เราสามารถใช้ list comprehension ดังนี้:","('nums = [x for x in mixed if type(x) == int], chars = [x for x in mixed if type(x) == str]', 0.75)","('nums = [x for x in mixed if type(x) == str], chars = [x for x in mixed if type(x) == int]', 0)","('nums = [x for x in mixed if x % 2 == 0], chars = [x for x in mixed if x % 2!= 0]', 0)","('nums = [x*2 for x in mixed], chars = [x+2 for x in mixed]', 0.25)",List,Hard
+135,การสร้าง list ในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('()', 0)","('{}', 0.5)","('[]', 1)","('.', 0)",List,Easy
+136,การเพิ่ม element เข้าไปใน list ของภาษา Python สามารถทำได้โดยใช้ method อะไร?,"('append', 1)","('insert', 0.75)","('extend', 0.5)","('remove', 0)",List,Medium
+137,วิธีการเข้าถึง element ที่อยู่ใน list ของภาษา Python คือ?,"('โดยใช้ index', 1)","('โดยใช้ key', 0.25)","('โดยใช้ value', 0.5)","('ไม่สามารถเข้าถึงได้', 0)",List,Easy
+138,การสร้าง list comprehension ในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('[]', 0.75)","('{}', 0)","('()', 0)","(':', 0.25)",List,Easy
+139,ในการทำงานกับ list comprehension เราสามารถใช้วิธีการใดในการสลับตำแหน่งของข้อมูลใน list?,"('reverse()', 0.75)","('invert()', 0)","('flip()', 0)","('swap()', 0.25)",List,Medium
+140,ในการทำงานกับ list comprehension เราสามารถใช้เงื่อนไขใดในการกรองข้อมูล?,"('if', 0.75)","('else', 0)","('for', 0.25)","('while', 0)",List,Medium
+141,"ถ้าเรามี list ที่ชื่อว่า fruits = ['apple', 'banana', 'cherry'] และเราต้องการหาความยาวของ list นี้ เราสามารถใช้ฟังก์ชันใด?","('len()', 0.75)","('size()', 0)","('length()', 0)","('count()', 0.25)",List,Easy
+142,ถ้าเรามี list ที่ชื่อ products และต้องการสร้าง list ใหม่ที่มีชื่อว่า discounted_products โดยใช้เฉพาะสินค้าที่มีส่วนลดมากกว่าหรือเท่ากับ 10% จะสามารถทำได้ด้วยคำสั่งอะไร?,"(""discounted_products = [product for product in products if product['discount'] >= 0.1]"", 1)","(""discounted_products = [product for product in products if product['discount'] <= 0.1]"", 0)","('discounted_products = products[:len(products)//2]', 0)","('discounted_products = products[len(products)//2:]', 0)",List,Hard
+143,การสร้าง list comprehension ที่มีการทำงานหลายๆ ขั้นตอนสามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('for', 0.5)","('while', 0)","('if', 0.5)","('and', 0)",List,Hard
+144,การสร้าง list comprehension ที่มีเงื่อนไขหลายๆ อย่างสามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('if', 0.5)","('elif', 0)","('else', 0)","('and', 0.5)",List,Medium
+145,ในการทำงานกับ list ในภาษา Python เราสามารถใช้วิธีการใดในการเพิ่มข้อมูลเข้าไปใน list?,"('append', 0.75)","('insert', 0.25)","('extend', 0)","('remove', 0)",List,Easy
+146,"ถ้าเรามี list ที่ชื่อว่า numbers = [1, 2, 3, 4, 5] และเราต้องการหาจำนวนรวมของข้อมูลใน list นี้ เราสามารถใช้วิธีการใด?","('sum(numbers)', 0.75)","('total(numbers)', 0)","('add(numbers)', 0)","('multiply(numbers)', 0.25)",List,Medium
+147,การลบ element ออกจาก list ของภาษา Python สามารถทำได้โดยใช้ method อะไร?,"('remove', 1)","('pop', 0.75)","('del', 0.5)","('clear', 0)",List,Medium
+148,"ในภาษา Python, การใช้วงวน (loop) แบบ for สามารถวนซ้ำคำสั่งที่มีจำนวนครั้งที่ไม่แน่นอนได้หรือไม่?","('ไม่สามารถทำได้', 0.75)","('สามารถทำได้', 0.25)","('ขึ้นอยู่กับสถานการณ์', 0)","('ไม่สามารถตอบได้', 0)",Loops,Medium
+149,คำสั่ง for ในภาษา Python ใช้สำหรับการวนซ้ำแบบใด?,"('การวนซ้ำที่มีการนับจำนวนรอบที่แน่นอน', 0.75)","('การวนซ้ำที่ไม่มีการนับจำนวนรอบ', 0.25)","('การวนซ้ำที่มีการกระโดดข้าม', 0)","('การวนซ้ำที่มีการวนซ้ำไปเรื่อยๆ', 0)",Loops,Easy
+150,การใช้วงวน (loop) แบบ while ใน Python สามารถวนซ้ำคำสั่งที่มีจำนวนครั้งที่แน่นอนได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่สามารถตอบได้', 0)",Loops,Medium
+151,"ในภาษา Python, การใช้วงวน (loop) แบบ for จะต้องมีการกำหนดจำนวนครั้งที่แน่นอนหรือไม่?","('ไม่จำเป็นต้องกำหนด', 1)","('จำเป็นต้องกำหนด', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่สามารถตอบได้', 0)",Loops,Easy
+152,การวนซ้ำคำสั่งใน Python สามารถทำได้โดยการใช้วงวน (loop) แบบไหนบ้าง?,"('for loop และ while loop', 1)","('for loop เท่านั้น', 0)","('while loop เท่านั้น', 0)","('if statement และ function', 0)",Loops,Hard
+153,"ในภาษา Python, วงวน (loop) ที่ใช้สำหรับการวนซ้ำคำสั่งที่มีจำนวนครั้งที่แน่นอน คือ?","('for loop', 1)","('while loop', 0)","('if statement', 0)","('function', 0)",Loops,Easy
+154,การวนซ้ำในภาษา Python สามารถทำได้โดยใช้คำสั่งใดบ้าง?,"('for', 0.75)","('while', 0.25)","('if', 0)","('def', 0)",Loops,Easy
+155,วงวน (loop) ที่ใช้สำหรับการวนซ้ำคำสั่งโดยไม่จำกัดจำนวนครั้ง คือ?,"('for loop', 0)","('while loop', 1)","('if statement', 0)","('function', 0)",Loops,Medium
+156,การใช้คำสั่ง break ใน Python จะทำให้วงวน (loop) ทำอะไร?,"('ออกจากวงวน', 1)","('ข้ามไปยังคำสั่งต่อไป', 0)","('วนซ้ำคำสั่งที่เหลือ', 0)","('หยุดการทำงานของโปรแกรม', 0)",Loops,Medium
+157,"ในภาษา Python, วงวน (loop) ที่ใช้สำหรับการวนซ้ำคำสั่งหลายครั้ง คือ?","('for loop', 1)","('while loop', 0.75)","('if statement', 0)","('function', 0)",Loops,Easy
+158,การใช้คำสั่ง continue ใน Python จะทำให้วงวน (loop) ทำอะไร?,"('ข้ามไปยังคำสั่งต่อไป', 0.75)","('ออกจากวงวน', 0)","('วนซ้ำคำสั่งที่เหลือ', 0.25)","('หยุดการทำงานของโปรแกรม', 0)",Loops,Medium
+159,คำสั่ง range() ในภาษา Python ใช้สำหรับอะไร?,"('การสร้างรายการของตัวเลข', 0.75)","('การสร้างรายการของตัวอักษร', 0)","('การสร้างฟังก์ชัน', 0)","('การสร้างเงื่อนไข', 0.25)",Loops,Medium
+160,การใช้วงวน (loop) แบบ while ใน Python จำเป็นต้องมีการกำหนดเงื่อนไขในการวนซ้ำหรือไม่?,"('จำเป็นต้องกำหนด', 1)","('ไม่จำเป็นต้องกำหนด', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่สามารถตอบได้', 0)",Loops,Medium
+161,ในการใช้คำสั่ง for ในภาษา Python เราสามารถใช้ค่าใดเป็นค่าเริ่มต้น?,"('ตัวเลข', 0.25)","('ตัวอักษร', 0)","('รายการ', 0.75)","('ฟังก์ชัน', 0)",Loops,Medium
+162,ในการใช้คำสั่ง while ในภาษา Python เราต้องระบุค่าอะไรในวงเล็บ?,"('เงื่อนไข', 0.75)","('ตัวเลข', 0)","('ตัวอักษร', 0)","('รายการ', 0.25)",Loops,Medium
+163,คำสั่ง while ในภาษา Python ใช้สำหรับการวนซ้ำแบบใด?,"('การวนซ้ำที่มีการนับจำนวนรอบที่แน่นอน', 0)","('การวนซ้ำที่ไม่มีการนับจำนวนรอบ', 0.75)","('การวนซ้ำที่มีการกระโดดข้าม', 0)","('การวนซ้ำที่มีการวนซ้ำไปเรื่อยๆ', 0.25)",Loops,Medium
+164,คำสั่ง break ในภาษา Python ใช้สำหรับอะไร?,"('การหยุดการวนซ้ำทันที', 0.75)","('การกระโดดข้ามการวนซ้ำ', 0)","('การวนซ้ำไปเรื่อยๆ', 0)","('การวนซ้ำที่มีการนับจำนวนรอบ', 0.25)",Loops,Medium
+165,คำสั่ง continue ในภาษา Python ใช้สำหรับอะไร?,"('การวนซ้ำไปเรื่อยๆ', 0)","('การกระโดดข้ามการวนซ้ำ', 0.75)","('การหยุดการวนซ้ำทันที', 0)","('การวนซ้ำที่มีการนับจำนวนรอบ', 0.25)",Loops,Medium
+166,คำสั่ง pass ในภาษา Python ใช้สำหรับอะไร?,"('การทำอะไรไม่ใดๆ', 0.75)","('การวนซ้ำไปเรื่อยๆ', 0)","('การกระโดดข้ามการวนซ้ำ', 0)","('การหยุดการวนซ้ำทันที', 0.25)",Loops,Easy
+167,การวนซ้ำในภาษา Python สามารถทำได้โดยใช้คำสั่งใดบ้าง (ยกเว้น for และ while)?,"('do-while', 0.25)","('repeat', 0)","('recur', 0.75)","('loop', 0)",Loops,Hard
+168,ถ้าเราต้องการนำเข้าเฉพาะฟังก์ชัน sin() จากโมดูล math ใน Python จะต้องใช้คำสั่งใด?,"('from math import sin', 1)","('import math.sin', 0)","('import math', 0)","('load math.sin', 0)",ModulesandImports,Medium
+169,การนำเข้าโมดูล tkinter ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('import tkinter as tk', 1)","('load tkinter', 0)","('include tkinter', 0)","('require tkinter', 0)",ModulesandImports,Easy
+170,เมื่อเรียกใช้โมดูล pandas ใน Python แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('DataFrame()', 1)","('Series()', 0.75)","('read_csv()', 0.5)","('print()', 0)",ModulesandImports,Medium
+171,การนำเข้าโมดูล numpy ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('import numpy as np', 1)","('load numpy', 0)","('include numpy', 0)","('require numpy', 0)",ModulesandImports,Easy
+172,เมื่อเรียกใช้โมดูล datetime ใน Python แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('now()', 1)","('strftime()', 0.75)","('timedelta()', 0.5)","('print()', 0)",ModulesandImports,Medium
+173,การนำเข้าโมดูลทั้งหมดจาก package ใน Python สามารถทำได้โดยการใช้คำสั่งใด?,"('from package import *', 1)","('import package.*', 0)","('load package', 0)","('include package', 0)",ModulesandImports,Medium
+174,เมื่อเรียกใช้โมดูล random ใน Python แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('randint()', 1)","('uniform()', 0.75)","('choice()', 0.5)","('print()', 0)",ModulesandImports,Easy
+175,การสร้างโมดูลของตัวเองใน Python สามารถทำได้โดยการสร้างไฟล์ใด?,"('.py', 1)","('.txt', 0)","('.html', 0)","('.css', 0)",ModulesandImports,Medium
+176,เมื่อเรียกใช้โมดูล math ใน Python โดยใช้คำสั่ง import math แล้วเราสามารถใช้งานฟังก์ชันใดได้?,"('sin()', 1)","('sqrt()', 0.75)","('random()', 0)","('print()', 0)",ModulesandImports,Easy
+177,การใช้คำสั่ง import datetime ใน Python จะนำเข้าโมดูลใด?,"('โมดูลสำหรับการจัดการข้อมูล', 0)","('โมดูลสำหรับการทำงานกับเวลา', 1)","('โมดูลสำหรับการทำงานกับไฟล์', 0)","('โมดูลสำหรับการทำงานกับระบบปฏิบัติการ', 0)",ModulesandImports,Medium
+178,การใช้คำสั่ง import random ใน Python จะนำเข้าโมดูลใด?,"('โมดูลสำหรับการจัดการข้อมูล', 0)","('โมดูลสำหรับการสร้างตัวเลขสุ่ม', 1)","('โมดูลสำหรับการทำงานกับเวลา', 0)","('โมดูลสำหรับการทำงานกับไฟล์', 0)",ModulesandImports,Medium
+179,การใช้คำสั่ง import re ใน Python จะนำเข้าโมดูลใด?,"('โมดูลสำหรับการทำงานกับข้อความ', 1)","('โมดูลสำหรับการทำงานกับไฟล์', 0)","('โมดูลสำหรับการทำงานกับเวลา', 0)","('โมดูลสำหรับการทำงานกับระบบปฏิบัติการ', 0)",ModulesandImports,Medium
+180,การ import ฟังก์ชันเฉพาะจากโมดูล os ใน Python สามารถทำได้โดยใช้คำสั่งใด?,"('from os import path', 1)","('import os.path', 0)","('load os.path', 0)","('require os.path', 0)",ModulesandImports,Medium
+181,การ import โมดูลทั้งหมดจาก package ใน Python สามารถทำได้โดยใช้คำสั่งใด?,"('from package import *', 1)","('import package.*', 0)","('load package.*', 0)","('require package.*', 0)",ModulesandImports,Hard
+182,การใช้คำสั่ง from math import sin จะนำเข้าฟังก์ชันใดจากโมดูล math?,"('sin', 1)","('cos', 0)","('tan', 0)","('log', 0)",ModulesandImports,Easy
+183,โมดูล sys ใน Python มีประโยชน์ในการทำงานกับสิ่งใด?,"('การจัดการข้อมูล', 0)","('การทำงานกับระบบปฏิบัติการ', 1)","('การทำงานกับเวลา', 0)","('การทำงานกับไฟล์', 0)",ModulesandImports,Medium
+184,การ import โมดูลเฉพาะฟังก์ชันใน Python สามารถทำได้โดยใช้คำสั่งใด?,"('from module import function', 1)","('import module.function', 0)","('load module.function', 0)","('require module.function', 0)",ModulesandImports,Medium
+185,การนำเข้าโมดูลในภาษา Python สามารถทำได้โดยการใช้คำสั่งใด?,"('import', 1)","('load', 0)","('include', 0)","('require', 0)",ModulesandImports,Easy
+186,เมื่อเรียกใช้โมดูล math ใน Python จะต้องใช้คำสั่งใด?,"('from math import *', 0.5)","('import math', 1)","('load math', 0)","('require math', 0)",ModulesandImports,Easy
+187,การ import โมดูลในภาษา Python สามารถทำได้โดยใช้คำสั่งใด?,"('import', 1)","('require', 0)","('include', 0)","('load', 0)",ModulesandImports,Easy
+188,คุณสมบัติของการโปรแกรมแบบ Object-Oriented คืออะไร?,"('Encapsulation', 0.5)","('Inheritance', 0.5)","('Polymorphism', 0.5)","('All of the above', 1)",Object-Oriented Programming (OOP),Medium
+189,วิธีการที่ใช้เพื่อป้องกันการเข้าถึงข้อมูลโดยตรงจากภายนอก object คืออะไร?,"('Encapsulation', 1)","('Inheritance', 0)","('Polymorphism', 0)","('Abstraction', 0)",Object-Oriented Programming (OOP),Medium
+190,คลาสใดในภาษา Python ที่ใช้สำหรับการสร้าง object?,"('Class', 1)","('Object', 0)","('Function', 0)","('Module', 0)",Object-Oriented Programming (OOP),Easy
+191,การสร้าง class ที่ไม่สามารถสร้าง object ได้ คืออะไร?,"('Abstract class', 1)","('Concrete class', 0)","('Static class', 0)","('Singleton class', 0)",Object-Oriented Programming (OOP),Hard
+192,ความหมายของคำว่า 'Abstraction' ในภาษา Python คืออะไร?,"('การแสดงเฉพาะส่วนที่สำคัญของข้อมูล', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+193,การสร้าง method ที่สามารถเรียกใช้งานได้เฉพาะภายใน class เท่านั้น คืออะไร?,"('Private method', 1)","('Protected method', 0.5)","('Public method', 0)","('Static method', 0)",Object-Oriented Programming (OOP),Hard
+194,วิธีการสร้างเมธอดพิเศษ (Special Method) ในภาษา Python คืออะไร?,"('การใช้เครื่องหมายใต้ขีด (_) ก่อนและหลังชื่อเมธอด', 1)","('การใช้เครื่องหมายจุด (.) ก่อนชื่อเมธอด', 0.25)","('การใช้เครื่องหมายอัศเจรีย (!) หลังชื่อเมธอด', 0)","('การใช้เครื่องหมายทวีคูณ (*) ก่อนชื่อเมธอด', 0.5)",Object-Oriented Programming (OOP),Medium
+195,การสร้าง attribute ที่สามารถเข้าถึงได้เฉพาะภายใน class เท่านั้น คืออะไร?,"('Private attribute', 1)","('Protected attribute', 0.5)","('Public attribute', 0)","('Static attribute', 0)",Object-Oriented Programming (OOP),Hard
+196,วิธีการเรียกใช้เมธอดของคลาสในภาษา Python คืออะไร?,"('การใช้จุด (.)', 1)","('การใช้เครื่องหมายคำถาม (?)', 0)","('การใช้เครื่องหมายอัศเจรีย (!)', 0)","('การใช้เครื่องหมายทวีคูณ (*)', 0.25)",Object-Oriented Programming (OOP),Easy
+197,ความหมายของคำว่า 'Inheritance' ในภาษา Python คืออะไร?,"('การรับช่วงต่อจากคลาสอื่น', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+198,การสร้างวัตถุ (Object) จากคลาสในภาษา Python ทำอย่างไร?,"('การใช้คำสั่ง new', 0)","('การใช้คำสั่ง create', 0)","('การใช้คำสั่ง class_name()', 1)","('การใช้คำสั่ง object_name = class_name()', 0.5)",Object-Oriented Programming (OOP),Easy
+199,ความหมายของคำว่า 'Encapsulation' ในภาษา Python คืออะไร?,"('การห่อหุ้มข้อมูลและฟังก์ชันในคลาสเดียวกัน', 1)","('การแบ่งปันข้อมูลระหว่างคลาส', 0.25)","('การสร้างคลาสใหม่', 0)","('การลบคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+200,ความหมายของคำว่า 'Polymorphism' ในภาษา Python คืออะไร?,"('การแสดงผลลัพธ์ที่แตกต่างกันของเมธอดที่มีชื่อเดียวกัน', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Hard
+201,คุณสมบัติของการเชื่อมโยงคลาสในภาษา Python คืออะไร?,"('การรับช่วงต่อจากคลาสอื่น', 1)","('การสร้างคลาสใหม่', 0.25)","('การลบคลาส', 0)","('การแก้ไขคลาส', 0.5)",Object-Oriented Programming (OOP),Medium
+202,การสร้างคลาสในภาษา Python จำเป็นต้องใช้คำสั่งใด?,"('class', 1)","('object', 0.25)","('instance', 0.5)","('inheritance', 0)",Object-Oriented Programming (OOP),Easy
+203,การสร้าง class ใหม่ที่มีคุณสมบัติและพฤติกรรมเหมือนกับ class เดิม แต่สามารถเพิ่มเติมหรือแก้ไขได้ คืออะไร?,"('Inheritance', 1)","('Encapsulation', 0)","('Polymorphism', 0)","('Abstraction', 0)",Object-Oriented Programming (OOP),Medium
+204,การกำหนดให้ method หรือ function สามารถทำงานได้กับหลายประเภทของข้อมูล คืออะไร?,"('Polymorphism', 1)","('Inheritance', 0)","('Encapsulation', 0)","('Abstraction', 0)",Object-Oriented Programming (OOP),Medium
+205,การแสดงผลลัพธ์ของ object เป็นในรูปแบบที่สามารถอ่านได้ง่าย คืออะไร?,"('__str__()', 1)","('__repr__()', 0.5)","('print()', 0)","('display()', 0)",Object-Oriented Programming (OOP),Easy
+206,วิธีการเข้าถึงข้อมูลสมาชิกของคลาสในภาษา Python คืออะไร?,"('การใช้จุด (.)', 1)","('การใช้เครื่องหมายคำถาม (?)', 0)","('การใช้เครื่องหมายอัศเจรีย (!)', 0)","('การใช้เครื่องหมายทวีคูณ (*)', 0.25)",Object-Oriented Programming (OOP),Easy
+207,การสร้าง object จาก class ใน Python ใช้คำสั่งอะไร?,"('new', 0)","('create', 0)","('instance', 1)","('objectify', 0)",Object-Oriented Programming (OOP),Easy
+208,เซตในภาษา Python คืออะไร?,"('คอลเล็กชันของไอเท็มที่ไม่ซ้ำกัน', 1)","('คอลเล็กชันของไอเท็มที่ซ้ำกัน', 0)","('คอลเล็กชันของไอเท็มที่มีลำดับ', 0)","('คอลเล็กชันของไอเท็มที่ไม่มีลำดับ', 0.5)",Set,Easy
+209,การสร้างเซตใน Python ทำอย่างไร?,"('ใช้ฟังก์ชัน set()', 1)","('ใช้ฟังก์ชัน list()', 0)","('ใช้ฟังก์ชัน dict()', 0)","('ใช้ฟังก์ชัน tuple()', 0)",Set,Easy
+210,วิธีการเพิ่มข้อมูลในเซตใน Python คือ?,"('ใช้เมธอด add()', 1)","('ใช้เมธอด append()', 0)","('ใช้เมธอด insert()', 0)","('ใช้เมธอด update()', 0.5)",Set,Medium
+211,วิธีการลบข้อมูลจากเซตใน Python คือ?,"('ใช้เมธอด remove()', 1)","('ใช้เมธอด delete()', 0)","('ใช้เมธอด discard()', 0.5)","('ใช้เมธอด pop()', 0)",Set,Medium
+212,เซตใน Python สามารถทำการรวมข้อมูลได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ขึ้นอยู่กับการใช้งาน', 0.25)",Set,Easy
+213,เซตใน Python สามารถทำการคัดลอกข้อมูลได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ขึ้นอยู่กับการใช้งาน', 0.25)",Set,Easy
+214,เซตใน Python สามารถทำการเปรียบเทียบข้อมูลได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ขึ้นอยู่กับการใช้งาน', 0.25)",Set,Medium
+215,เซตใน Python สามารถทำการค้นหาข้อมูลได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ขึ้นอยู่กับการใช้งาน', 0.25)",Set,Medium
+216,เซตใน Python สามารถทำการตรวจสอบความซ้ำของข้อมูลได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ขึ้นอยู่กับการใช้งาน', 0.25)",Set,Hard
+217,การสร้าง set ในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์อะไร?,"('()', 0.25)","('[]', 0.5)","('{} without key', 1)","('.', 0)",Set,Easy
+218,การรวม set ในภาษา Python สามารถทำได้โดยใช้ operator อะไร?,"('union', 1)","('intersection', 0.75)","('difference', 0.5)","('symmetric_difference', 0)",Set,Medium
+219,เซตในภาษาไพธอนสามารถสร้างได้โดยการใช้สัญลักษณ์อะไร?,"('{}', 1)","('()', 0)","('[]', 0)","('.set', 0)",Set,Easy
+220,การสร้างเซตในภาษาไพธอนสามารถทำได้โดยใช้วิธีการใด?,"('set() function', 1)","('list comprehension', 0.5)","('dictionary', 0)","('tuple', 0)",Set,Medium
+221,เซตในภาษาไพธอนมีลักษณะเด่นอย่างไร?,"('ไม่สามารถมีสมาชิกซ้ำกันได้', 1)","('สามารถมีสมาชิกซ้ำกันได้', 0)","('เป็นลำดับ', 0)","('สามารถแก้ไขได้', 0)",Set,Easy
+222,เราสามารถเพิ่มสมาชิกใหม่เข้าไปในเซตในภาษาไพธอนได้โดยใช้เมธอดอะไร?,"('add()', 1)","('append()', 0)","('insert()', 0)","('update()', 0.5)",Set,Medium
+223,เซตในภาษาไพธอนสามารถทำการรวมเซต (Union) ได้โดยใช้เครื่องหมายอะไร?,"('|', 1)","('&', 0.5)","('+', 0)","('*', 0)",Set,Medium
+224,เซตในภาษาไพธอนสามารถทำการหาข้อมูลที่เหมือนกันระหว่างสองเซต (Intersection) ได้โดยใช้เครื่องหมายอะไร?,"('&', 1)","('|', 0.5)","('+', 0)","('*', 0)",Set,Medium
+225,เซตในภาษาไพธอนสามารถทำการหักล้างเซต (Difference) ได้โดยใช้เครื่องหมายอะไร?,"('-', 1)","('+', 0)","('*', 0)","('/', 0)",Set,Medium
+226,เซตในภาษาไพธอนสามารถทำการลบสมาชิกออกจากเซตได้โดยใช้เมธอดอะไร?,"('remove()', 1)","('discard()', 0.5)","('delete()', 0)","('pop()', 0)",Set,Medium
+227,เซตในภาษาไพธอนสามารถทำการคัดลอกเซตได้โดยใช้เมธอดอะไร?,"('copy()', 1)","('clone()', 0.5)","('duplicate()', 0)","('replicate()', 0)",Set,Medium
+228,เซตใน Python สามารถทำการแปลงข้อมูลได้หรือไม่?,"('สามารถทำได้', 1)","('ไม่สามารถทำได้', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ขึ้นอยู่กับการใช้งาน', 0.25)",Set,Hard
+229,Set methods ใน Python ใช้สำหรับการดำเนินการอะไร?,"('การเรียงลำดับข้อมูล', 0.25)","('การตรวจสอบความซ้ำของข้อมูล', 0.5)","('การแปลงข้อมูลเป็นรูปแบบอื่น', 0)","('การทำงานร่วมกับ list และ dictionary', 1)",Set,Medium
+230,การทำงานร่วมกันระหว่าง set และ list สามารถทำได้โดยการใช้วิธีการอะไร?,"('การแปลง set เป็น list', 0.5)","('การแปลง list เป็น set', 1)","('การใช้ฟังก์ชัน intersection()', 0)","('การใช้ฟังก์ชัน union()', 0)",Set,Hard
+231,Set methods ใน Python มีประโยชน์ในการดำเนินการอะไร?,"('การตรวจสอบความซ้ำของข้อมูล', 0.5)","('การทำงานร่วมกับ list และ dictionary', 1)","('การแปลงข้อมูลเป็นรูปแบบอื่น', 0)","('การเรียงลำดับข้อมูล', 0.25)",Set,Medium
+232,เซตในภาษาไพธอนสามารถทำการตรวจสอบว่าสมาชิกหนึ่งอยู่ในเซตหรือไม่ได้โดยใช้เมธอดอะไร?,"('in', 1)","('not in', 0.5)","('contains()', 0)","('include()', 0)",Set,Easy
+233,Tuple สามารถใช้งานร่วมกับฟังก์ชันใดได้บ้าง?,"('len()', 1)","('sorted()', 0.5)","('reverse()', 0.25)","('all of the above', 0)",Tuples,Medium
+234,คุณสามารถแก้ไขค่าใน Tuple ได้หรือไม่?,"('ไม่สามารถ', 1)","('สามารถ', 0)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Easy
+235,วิธีการเข้าถึงสมาชิกของ Tuple คืออะไร?,"('ใช้วิธีการ Slice', 0.25)","('ใช้วิธีการ Indexing', 1)","('ใช้วิธีการ Loop', 0.5)","('ใช้วิธีการ Random', 0)",Tuples,Easy
+236,การลบสมาชิกใน Tuple ทำได้หรือไม่?,"('ทำได้', 0)","('ไม่สามารถ', 1)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Medium
+237,คำสั่งไหนที่ใช้ในการสร้าง Tuple?,"('tuple()', 0.25)","('list()', 0)","('()', 0.5)","('None of the above', 1)",Tuples,Easy
+238,การสร้าง Tuple จาก List ทำได้หรือไม่?,"('ไม่สามารถ', 0)","('ทำได้', 1)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Hard
+239,การแปลง Tuple เป็น String ทำได้หรือไม่?,"('ไม่สามารถ', 0)","('ทำได้', 1)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Hard
+240,การตรวจสอบสมาชิกใน Tuple ทำได้หรือไม่?,"('ไม่สามารถ', 0)","('ทำได้', 1)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Hard
+241,การรวม Tuple เข้าด้วยกันทำได้หรือไม่?,"('ไม่สามารถ', 0)","('ทำได้', 1)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Hard
+242,การปรับปรุงสมาชิกใน Tuple ทำได้หรือไม่?,"('ทำได้', 0)","('ไม่สามารถ', 1)","('ขึ้นอยู่กับสถานการณ์', 0.5)","('ไม่แน่ใจ', 0)",Tuples,Medium
+243,ตัวแปรในภาษา Python สามารถเปลี่ยนชนิดข้อมูลได้หรือไม่,"('สามารถเปลี่ยนชนิดข้อมูลได้', 0.75)","('ไม่สามารถเปลี่ยนชนิดข้อมูลได้', 0.25)","('ขึ้นอยู่กับชนิดข้อมูล', 0)","('ไม่แน่ใจ', 0)",Variables and Data Types,Medium
+244,ชนิดข้อมูล int ในภาษา Python ใช้เก็บค่าใด,"('ตัวเลขจำนวนเต็ม', 0.75)","('ตัวเลขทศนิยม', 0.25)","('ข้อความ', 0)","('ค่าที่เป็นจริง/เท็จ', 0)",Variables and Data Types,Easy
+245,การสร้างตัวแปรในภาษา Python สามารถทำได้โดยการใช้สัญลักษณ์ใด,"('=', 0.75)","('==', 0.25)","('!=', 0)","('<>', 0)",Variables and Data Types,Easy
+246,ชนิดข้อมูล float ในภาษา Python ใช้เก็บค่าใด,"('ตัวเลขทศนิยม', 0.75)","('ตัวเลขจำนวนเต็ม', 0.25)","('ข้อความ', 0)","('ค่าที่เป็นจริง/เท็จ', 0)",Variables and Data Types,Easy
+247,ในภาษา Python คุณสามารถใช้ตัวแปรที่มีชื่อเดียวกันได้หรือไม่,"('สามารถใช้ตัวแปรที่มีชื่อเดียวกันได้', 0.25)","('ไม่สามารถใช้ตัวแปรที่มีชื่อเดียวกันได้', 0.75)","('ขึ้นอยู่กับชนิดข้อมูล', 0)","('ไม่แน่ใจ', 0)",Variables and Data Types,Medium
+248,ชนิดข้อมูล str ในภาษา Python ใช้เก็บค่าใด,"('ข้อความ', 0.75)","('ตัวเลขจำนวนเต็ม', 0.25)","('ตัวเลขทศนิยม', 0)","('ค่าที่เป็นจริง/เท็จ', 0)",Variables and Data Types,Easy
+249,ในภาษา Python การกำหนดค่าเริ่มต้นให้กับตัวแปรสามารถทำได้โดยการใช้สัญลักษณ์ใด,"('=', 0.75)","('==', 0.25)","('!=', 0)","('<>', 0)",Variables and Data Types,Easy
+250,ชนิดข้อมูล bool ในภาษา Python ใช้เก็บค่าใด,"('ค่าที่เป็นจริง/เท็จ', 0.75)","('ตัวเลขจำนวนเต็ม', 0.25)","('ตัวเลขทศนิยม', 0)","('ข้อความ', 0)",Variables and Data Types,Easy
+251,ในภาษา Python การเปลี่ยนชนิดข้อมูลของตัวแปรสามารถทำได้โดยการใช้ฟังก์ชันใด,"('int()', 0.5)","('float()', 0.5)","('str()', 0)","('bool()', 0)",Variables and Data Types,Medium
+252,การใช้งานตัวแปรในภาษา Python ต้องเริ่มด้วยคำว่า?,"('var', 0.25)","('let', 0.5)","('int', 0.75)","('None', 1)",Variables and Data Types,Easy
+253,การกำหนดค่าให้กับตัวแปรในภาษา Python ทำอย่างไร?,"('=', 1)","('==', 0.75)","('!=', 0.5)","('>=', 0.25)",Variables and Data Types,Easy
+254,การแสดงผลลัพธ์ของตัวแปรในภาษา Python ใช้ฟังก์ชัน?,"('print()', 1)","('display()', 0.75)","('show()', 0.5)","('output()', 0.25)",Variables and Data Types,Easy
+255,ตัวอย่างของการสร้างตัวแปรในภาษา Python คือ?,"('x = 5', 1)","(""y = 'Hello'"", 0.75)","('z = True', 0.5)","('w = 3.14', 0.25)",Variables and Data Types,Medium
+256,การเปลี่ยนชนิดข้อมูลของตัวแปรในภาษา Python สามารถทำได้หรือไม่?,"('ไม่สามารถเปลี่ยนชนิดข้อมูลได้', 0)","('สามารถเปลี่ยนชนิดข้อมูลได้', 1)","('ขึ้นอยู่กับชนิดข้อมูล', 0.5)","('ต้องใช้ฟังก์ชันพิเศษ', 0.25)",Variables and Data Types,Medium
+257,ตัวอย่างของการแปลงชนิดข้อมูลในภาษา Python คือ?,"('str(x)', 1)","('int(y)', 0.75)","('float(z)', 0.5)","('bool(w)', 0.25)",Variables and Data Types,Medium
+258,การกำหนดค่าเริ่มต้นให้กับตัวแปรในภาษา Python สามารถทำได้หรือไม่?,"('ไม่สามารถกำหนดค่าเริ่มต้นได้', 0)","('สามารถกำหนดค่าเริ่มต้นได้', 1)","('ขึ้นอยู่กับชนิดข้อมูล', 0.5)","('ต้องใช้ฟังก์ชันพิเศษ', 0.25)",Variables and Data Types,Medium
+259,การตรวจสอบชนิดข้อมูลของตัวแปรในภาษา Python สามารถทำได้โดยใช้ฟังก์ชัน?,"('type()', 1)","('isinstance()', 0.75)","('classof()', 0.5)","('datatype()', 0.25)",Variables and Data Types,Hard
+260,การเปลี่ยนแปลงค่าของตัวแปรในภาษา Python สามารถทำได้โดยใช้?,"('Assignment', 1)","('Function', 0.75)","('Method', 0.5)","('Operator', 0.25)",Variables and Data Types,Hard
+261,ตัวแปรในภาษา Python สามารถเก็บค่าได้หลายประเภท เช่น ,"('String', 1)","('Integer', 0.75)","('Boolean', 0.5)","('List', 0.25)",Variables and Data Types,Easy
+262,ในภาษา Python คุณสามารถเก็บค่าใดๆ ในตัวแปรได้,"('ตัวเลข', 0.75)","('ข้อความ', 0.25)","('ทั้งข้อความและตัวเลข', 0)","('ไม่สามารถเก็บค่าใดๆ ได้', 0)",Variables and Data Types,Easy
