@@ -30,5 +30,14 @@ The main reason for using the Typhoon-V1.5x-70B-Instruct API is its support for 
 ## Source ##
 Here is our [Presentation](https://www.canva.com/design/DAGT_p843FA/Y6y_e4gWoSdm6mL9IcT3OQ/edit?utm_content=DAGT_p843FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+## Member ##
+Mr.Tanawat Wongwad
+
+Mr.Nattapong  Pakdeeviboon
+
+Miss Thitaree Lumsan
+
+From Nawaminthrachinuthit Satriwitthaya Phutthamonthon School
+
 ## Final ##
 *We extend our gratitude to Mr. Chatchawal Sangkeettrakarn, a researcher from the National Electronics and Computer Technology Center, for his valuable suggestions and for inviting us to participate in an internship. Over the course of one month, we gained a wealth of experience.*
