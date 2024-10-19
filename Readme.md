@@ -1,8 +1,8 @@
 # PlanPy : Find A Python Learning Path
-This is a project internship about Adptive Leaning in 1 month.
+This is a project internship about Adptive Learning in 1 month.
 
 **Our Goal**
-1. Understand "What is Adaptive Leaning?"
+1. Understand "What is Adaptive Learning?"
 2. Do a research
 3. Brainstrom for creating project
 4. Everyone can explain and responsible a project
