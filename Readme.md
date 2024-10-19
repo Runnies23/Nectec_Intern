@@ -7,7 +7,7 @@ This is a project internship about Adptive Leaning in 1 month.
 3. Brainstrom for creating project
 4. Everyone can explain and responsible a project
 
-## What is Adaptive Leaning?
+## What is Adaptive Learning?
 Each learner has different abilities, so learning activities should be adaptable to their individual skill levels. This requires adjusting the content, format, and feedback according to each user's performance.
 
 ## About PlanPy project
