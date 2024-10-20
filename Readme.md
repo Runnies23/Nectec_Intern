@@ -16,7 +16,10 @@ This adaptive learning project utilizes the Typhoon-V1.5x-70B-Instruct LLM API t
 **What sets this project apart** is that while you can find countless Python courses online, it’s often difficult to know where to begin based on your current knowledge level, and even harder to plan your learning within your limited time. PlanPy solves this problem by creating a personalized learning experience that adapts dynamically to your abilities and time constraints. Additionally, Typhoon LLM's support for the Thai language and its user-friendly interface make it accessible to a broader audience, further enhancing the learning experience. The API also ensures detailed feedback and progress tracking, empowering users to improve continuously based on real-time performance analytics.
 
 ### Why have to use Typhoon-V1.5x-70B-Instruct API? ###
-The main reason for using the Typhoon-V1.5x-70B-Instruct API is its support for the Thai language, as it was developed by Thai developers. Additionally, it is user-friendly and free to use. The model is versatile and can generate responses to user queries or commands in chatbots, respond to complex instructions, and create content based on specific prompts or guidelines. This makes it ideal for a wide range of applications, especially those requiring Thai language processing.
+The primary reason for using the Typhoon-V1.5x-70B-Instruct API is its robust support for the Thai language, built upon the Qwen1.5 model and developed by Thai experts. This model outperforms GPT-4 on the ThaiExam (average), showcasing its superior ability to understand and generate Thai content. It is also user-friendly and free to access. The model’s versatility allows it to handle various tasks, such as generating responses for chatbots, following complex instructions, and creating content based on specific prompts. These capabilities make it an excellent choice for diverse applications, particularly those requiring advanced Thai language processing.
+
+Try Typhoon API [here](https://huggingface.co/scb10x/typhoon-v1.5-72b-instruct)
+Huggingface Model [here](https://huggingface.co/scb10x/typhoon-v1.5-72b-instruct)
 
 ## Opportunity ##
 1. Our team plans to develop a platform that caters to every individual's desire to learn various topics, providing a comprehensive and personalized educational experience.
@@ -27,9 +30,12 @@ The main reason for using the Typhoon-V1.5x-70B-Instruct API is its support for 
   * Addressing Hallucination
   * Enhancing Accuracy
 
+## Source ##
+Here is our [Presentation](https://www.canva.com/design/DAGT_p843FA/Y6y_e4gWoSdm6mL9IcT3OQ/edit?utm_content=DAGT_p843FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Get Start ##
 
-** Environment **
+### Environment
 First, you have to pip install the necessary library.
 ```
 !pip pandas requests
@@ -37,17 +43,13 @@ First, you have to pip install the necessary library.
 or you can create requirements.txt and copy my requirements.txt in your file.
 Then run this command in terminal or command prompt.
 ```
-pip install -r requirements.txt
+!pip install -r requirements.txt
 ```
 
-** Code file 
-- **Overall.py && Overall.ipynb** Large Language Model Create real time Quetion 
-- **Question_bank.py && Question_bank.ipynb** Use Query Question in Question Bank database
+### Experiment
+- **Overall.py && Overall.ipynb** | Large Language Model Create real time Quetion 
+- **Question_bank.py && Question_bank.ipynb** | Use Query Question in Question Bank database
 
-
-
-## Source ##
-Here is our [Presentation](https://www.canva.com/design/DAGT_p843FA/Y6y_e4gWoSdm6mL9IcT3OQ/edit?utm_content=DAGT_p843FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Member ##
 Mr.Tanawat Wongwad
@@ -59,4 +61,4 @@ Miss Thitaree Lumsan
 From Nawaminthrachinuthit Satriwitthaya Phutthamonthon School
 
 ## Final ##
-*We extend our gratitude to Mr. Chatchawal Sangkeettrakarn, a researcher from the National Electronics and Computer Technology Center, for his valuable suggestions and for inviting us to participate in an internship. Over the course of one month, we gained a wealth of experience.*
+*We extend our gratitude to Mr. Chatchawal Sangkeettrakarn, our supervisor and a researcher from the National Electronics and Computer Technology Center, for his valuable suggestions and for inviting us to participate in the internship. Throughout the one-month period, we gained a wealth of experience.*
