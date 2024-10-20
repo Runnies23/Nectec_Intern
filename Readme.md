@@ -22,18 +22,6 @@ Try Typhoon API [here](https://opentyphoon.ai/app/playground)
 
 Huggingface Model [here](https://huggingface.co/scb10x/typhoon-v1.5-72b-instruct)
 
-## Opportunity ##
-1. Our team plans to develop a platform that caters to every individual's desire to learn various topics, providing a comprehensive and personalized educational experience.
-2. We aim to create a user-friendly environment, utilizing platforms like Discord bots and APIs to enhance accessibility and interaction.
-3. Question Bank will integrate a diverse question bank that allows the LLM to generate more effective quizzes. This feature will provide users with engaging assessments to test their knowledge, reinforce learning, and identify areas for improvement.
-
-**Our focus on optimizing the system**
-  * Addressing Hallucination
-  * Enhancing Accuracy
-
-## Source ##
-Here is our [Presentation](https://www.canva.com/design/DAGT_p843FA/Y6y_e4gWoSdm6mL9IcT3OQ/edit?utm_content=DAGT_p843FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 ## Get Start ##
 
 ### Environment
@@ -51,6 +39,17 @@ Then run this command in terminal or command prompt.
 - **Overall.py && Overall.ipynb** | Large Language Model Create real time Quetion 
 - **Question_bank.py && Question_bank.ipynb** | Use Query Question in Question Bank database
 
+## Opportunity ##
+1. Our team plans to develop a platform that caters to every individual's desire to learn various topics, providing a comprehensive and personalized educational experience.
+2. We aim to create a user-friendly environment, utilizing platforms like Discord bots and APIs to enhance accessibility and interaction.
+3. Question Bank will integrate a diverse question bank that allows the LLM to generate more effective quizzes. This feature will provide users with engaging assessments to test their knowledge, reinforce learning, and identify areas for improvement.
+
+**Our focus on optimizing the system**
+  * Addressing Hallucination
+  * Enhancing Accuracy
+
+## Source ##
+Here is our [Presentation](https://www.canva.com/design/DAGT_p843FA/Y6y_e4gWoSdm6mL9IcT3OQ/edit?utm_content=DAGT_p843FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Member ##
 Mr.Tanawat Wongwad
