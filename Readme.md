@@ -27,6 +27,25 @@ The main reason for using the Typhoon-V1.5x-70B-Instruct API is its support for 
   * Addressing Hallucination
   * Enhancing Accuracy
 
+## Get Start ##
+
+** Environment **
+First, you have to pip install the necessary library.
+```
+!pip pandas requests
+```
+or you can create requirements.txt and copy my requirements.txt in your file.
+Then run this command in terminal or command prompt.
+```
+pip install -r requirements.txt
+```
+
+** Code file 
+- **Overall.py && Overall.ipynb** Large Language Model Create real time Quetion 
+- **Question_bank.py && Question_bank.ipynb** Use Query Question in Question Bank database
+
+
+
 ## Source ##
 Here is our [Presentation](https://www.canva.com/design/DAGT_p843FA/Y6y_e4gWoSdm6mL9IcT3OQ/edit?utm_content=DAGT_p843FA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
