@@ -19,6 +19,7 @@ This adaptive learning project utilizes the Typhoon-V1.5x-70B-Instruct LLM API t
 The primary reason for using the Typhoon-V1.5x-70B-Instruct API is its robust support for the Thai language, built upon the Qwen1.5 model and developed by Thai experts. This model outperforms GPT-4 on the ThaiExam (average), showcasing its superior ability to understand and generate Thai content. It is also user-friendly and free to access. The model’s versatility allows it to handle various tasks, such as generating responses for chatbots, following complex instructions, and creating content based on specific prompts. These capabilities make it an excellent choice for diverse applications, particularly those requiring advanced Thai language processing.
 
 Try Typhoon API [here](https://huggingface.co/scb10x/typhoon-v1.5-72b-instruct)
+
 Huggingface Model [here](https://huggingface.co/scb10x/typhoon-v1.5-72b-instruct)
 
 ## Opportunity ##
